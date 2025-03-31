@@ -1,0 +1,263 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Quadrienal Docentes Permanentes 2021-2024</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Quadrienal Docentes Permanentes 2021-2024</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Resumos expandidos publicados em anais de congressos'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2021,
+8],
+[2022,
+10],
+[2023,
+17],
+[2024,
+19]]}]});
+        });
+        </script>
+        
+                <h3>Resumos expandidos publicados em anais de congressos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 54<br>
+                    (<b>A1</b>: 0, <b>A2</b>: 0, <b>A3</b>: 0, <b>A4</b>: 0, <b>B1</b>: 0, <b>B2</b>: 0, <b>B3</b>: 0, <b>B4</b>: 0, <b>B5</b>: 0, <b>C</b>: 0, <b>NP</b>: 0, <b>Qualis n&atilde;o identificado</b>: 54)<br><p><b>Legenda Qualis:</b><ul><li> Publica&ccedil;&atilde;o para a qual o nome exato do Qualis foi identificado: <font color="#254117"><b>Qualis &lt;estrato&gt;</b></font><li> Publica&ccedil;&atilde;o para a qual um nome similar (n&atilde;o exato) do Qualis foi identificado: <font color="#F88017"><b>Qualis &lt;estrato&gt;</b></font> (nome similar)<li> Publica&ccedil;&atilde;o para a qual nenhum nome do Qualis foi identificado: <font color="#FDD7E4"><b>Qualis n&atilde;o identificado</b></font> (nome usado na busca)</ul>
+                    
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>A. A. Gomes ; Nario, A. P. ; Lapolli, A. L. ; Bernardes, E. S. ; de Rossi, W.. <b>MICRO-CARTUCHO DEDICADO À CONCENTRAÇÃO DE RADIONUCLÍDEOS PARA SÍNTESES DE RADIOFÁRMACOS</b>. Em: 38º Congresso Brasileiro de Medicina Nuclear, 2024, São Paulo. Anais do MICRO-CARTUCHO DEDICADO À CONCENTRAÇÃO DE RADIONUCLÍDEOS PARA SÍNTESES DE RADIOFÁRMACOS, 2024. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (38º CONGRESSO BRASILEIRO DE MEDICINA NUCLEAR, 2024, SÃO PAULO. ANAIS DO MICRO-CARTUCHO DEDICADO À CONCENTRAÇÃO DE RADIONUCLÍDEOS PARA SÍNTESES DE RADIOFÁRMACOS)</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CAVALCANTE, L. C. ; SANTOS, L. J. ; OLIVEIRA, V. L. T. ; Carlos Farias Felgueiras ; MATSUDA, MARGARETH M N. <b>Comparison of Techniques for Protein Extraction from Fungi Found on a Radiopharmaceutical Manufacturing Plant</b>. Em: INAC-ENAN-ENFIR 2024, 2024, Rio de Janeiro - RJ. INAC 2024, 2024. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INAC-ENAN-ENFIR 2024, 2024, RIO DE JANEIRO - RJ. INAC 2024)</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CHICO, H. S. ; ANGELOCCI, LUCAS VERDI ; Carla D. Souza, ; SGRIGNOLI, S. S. ; CHUERI MARTINS ROSTELATO, MARIA ELISA. <b>A dosimetric evaluation using the Monte Carlo method considering geometric variations of the iodine-125 seed for brachytherapy</b>. Em: International Nuclear Atlantic Conference, 2024, Rio de Janeiro. Annals of INAC, 2024. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INTERNATIONAL NUCLEAR ATLANTIC CONFERENCE, 2024, RIO DE JANEIRO. ANNALS OF INAC)</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CHICO, H. S. ; ANGELOCCI, LUCAS VERDI ; Daruich de Souza, Carla ; SGRIGNOLI, S. S. ; ROSTELATO, M.. <b>A dosimetric evaluation using the Monte Carlo method considering geometric variations of the iodine-125 seed for brachytherapy</b>. Em: International Nuclear Atlantic Conference, 2024, Rio de Janeiro. Anals of INAC, 2024. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INTERNATIONAL NUCLEAR ATLANTIC CONFERENCE, 2024, RIO DE JANEIRO. ANALS OF INAC)</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>COURI, V. S. F. ; MATSUDA, MARGARETH M. N.. <b>Improvement of Technetium-Labeled Phytate Radiochemical Quality Control</b>. Em: INAC-ENAN-ENIN/ENFIR 2024, 2024, Rio de Janeiro - RJ. INAC 2024, 2024. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INAC-ENAN-ENIN/ENFIR 2024, 2024, RIO DE JANEIRO - RJ. INAC 2024)</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>de Rossi, Wagner; WETTER, NIKLAUS URSUS ; DIPOLD, JESSICA ; BORDON, CAMILA D. S. ; VECCHI, THIAGO F. ; KASSAB, LUCIANA R. P.. <b>Passive and Active Dual Waveguides Produced by Femtosecond Laser Micromachining</b>. Em: Latin America Optics and Photonics Conference, 2024, Puerto Vallarta. Optica Latin America Optics and Photonics Conference (LAOP) 2024, p. Tu2A.4, 2024. <a href="http://dx.doi.org/10.1364/laop.2024.tu2a.4" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (LATIN AMERICA OPTICS AND PHOTONICS CONFERENCE, 2024, PUERTO VALLARTA. OPTICA LATIN AMERICA OPTICS AND PHOTONICS CONFERENCE 2024)</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Dias, F.S. ; Santos, L.C. ; M.P.A. POTIENS. <b>Establishment of reference conditions for dosimetry in Intrabeam</b>. Em: 16th International Congress of the International Radiation Protection Association, 2024, Orlando. ANAIS OF THE 16th IRPA 16 HPS. Herndon: HPS, v. 1, p. 195-195, 2024. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (16TH INTERNATIONAL CONGRESS OF THE INTERNATIONAL RADIATION PROTECTION ASSOCIATION, 2024, ORLANDO. ANAIS OF THE 16TH IRPA 16 HPS. HERNDON: HPS)</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>GOMES, ANTONIO ARLEQUES ; NARIO, ARIAN P. ; DA SILVA, E. DRIGO ; SAMAD, RICARDO E. ; de Rossi, Wagner. <b>Development of Tools for Bubble Characterization in Microfluidic Systems Using Intelligent Vision System</b>. Em: Latin America Optics and Photonics Conference, 2024, Puerto Vallarta. Optica Latin America Optics and Photonics Conference (LAOP) 2024. Washington: Optica Publishing Group, p. W1A.2, 2024. <a href="http://dx.doi.org/10.1364/LAOP.2024.W1A.2" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (LATIN AMERICA OPTICS AND PHOTONICS CONFERENCE, 2024, PUERTO VALLARTA. OPTICA LATIN AMERICA OPTICS AND PHOTONICS CONFERENCE 2024. WASHINGTON: OPTICA PUBLISHING GROUP)</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>GOMES, ANTONIO ARLEQUES ; NARIO, ARIAN P. ; LAPOLLI, ANDRÉ L. ; SAMAD, RICARDO E. ; BERNARDES, EMERSON S. ; de Rossi, Wagner. <b>Micro-cartridge Applied to Fluorine-18 Concentration Developed with Ultrashort Laser Pulse Machining</b>. Em: Latin America Optics and Photonics Conference, 2024, Puerto Vallarta. Optica Latin America Optics and Photonics Conference (LAOP) 2024. Washington: Optica Publishing Group, p. M4C.6, 2024. <a href="http://dx.doi.org/10.1364/LAOP.2024.M4C.6" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (LATIN AMERICA OPTICS AND PHOTONICS CONFERENCE, 2024, PUERTO VALLARTA. OPTICA LATIN AMERICA OPTICS AND PHOTONICS CONFERENCE 2024. WASHINGTON: OPTICA PUBLISHING GROUP)</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MARTINS, P. A. ; RAMOS, M. P. S. ; NASCIMENTO, L. C. ; SILVA, L. ; SILVA, J. L. ; Santos, Joel ; SILVA, N. G. ; MATSUDA, MARGARETH M N. <b>Long-term Stability Study for GERADOR-IPENTEC by IPEN-CNEN/SP</b>. Em: INAC 2024, 2024, Rio de Janeiro - RJ. INAC-ENAN-ENIN/ENFIR 2024, 2024. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INAC 2024, 2024, RIO DE JANEIRO - RJ. INAC-ENAN-ENIN/ENFIR 2024)</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Nario, A. P. ; A. A. Gomes ; Lapolli, A. L. ; da Silva, E. D. ; Samad, R. E. ; Bernardes, E. S. ; de Rossi, W.. <b>Characterization of Micro-Cartucho Applied to Fluorine-18 Concentration Developing with Ultrashort Laser Pulse</b>. Em: Whorkshop sobre Órgãos Artificiais, Biomateriais e Engenharia de Tecidos, 2024, Fortaleza - CE. Anais do Whorkshop sobre Órgãos Artificiais, Biomateriais e Engenharia de Tecidos, 2024. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (WHORKSHOP SOBRE ÓRGÃOS ARTIFICIAIS, BIOMATERIAIS E ENGENHARIA DE TECIDOS, 2024, FORTALEZA - CE. ANAIS DO WHORKSHOP SOBRE ÓRGÃOS ARTIFICIAIS, BIOMATERIAIS E ENGENHARIA DE TECIDOS)</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Nario, A. P. ; Lapolli, A. L. ; da Silva, E. D. ; Samad, R. E. ; Bernardes, E. S. ; de Rossi, W.. <b>Dedicated Micro-Cartridge for Radionuclide Concentration in Radiopharmaceutical Development and Production</b>. Em: Whorkshop sobre Órgãos Artificiais, Biomateriais e Engenharia de Tecidos, 2024, Fortaleza - CE. Anais do Whorkshop sobre Órgãos Artificiais, Biomateriais e Engenharia de Tecidos, 2024. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (WHORKSHOP SOBRE ÓRGÃOS ARTIFICIAIS, BIOMATERIAIS E ENGENHARIA DE TECIDOS, 2024, FORTALEZA - CE. ANAIS DO WHORKSHOP SOBRE ÓRGÃOS ARTIFICIAIS, BIOMATERIAIS E ENGENHARIA DE TECIDOS)</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>OLIVEIRA, V. L. T. ; SANTOS, L. J. ; CAVALCANTE, L. C. ; DIAS, L. A. P. ; FELGUEIRAS, C. F. ; MATSUDA, MARGARETH M N. <b>Preliminary study of sterilizing filtration validation: microscopy of DOT-IPEN-177 filtration membrane</b>. Em: INAC 2024, 2024, Rio de Janeiro - RJ. INAC-ENAN-ENIN/ENFIR 2024, 2024. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INAC 2024, 2024, RIO DE JANEIRO - RJ. INAC-ENAN-ENIN/ENFIR 2024)</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Santos, Joel ; MATSUDA, MARGARETH M N. <b>Tin Quantification in Lyophilized Reagents by Dithiol Spectrophotometric Method</b>. Em: INAC-ENAN-ENIN/ENFIR 2024, 2024, Rio de Janeiro - RJ. INAC 2024, 2024. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INAC-ENAN-ENIN/ENFIR 2024, 2024, RIO DE JANEIRO - RJ. INAC 2024)</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Santos, Joel ; MATSUDA, MARGARETH M.N. ; Araújo, E. B.. <b>Evaluation of HPLC chromatographic analytical method to determine radiochemical purity of [177Lu]-PSMA I&T</b>. Em: INAC 2024, 2024, Rio de Janeiro - RJ. INAC-ENAN-ENIN/ENFIR 2024, 2024. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INAC 2024, 2024, RIO DE JANEIRO - RJ. INAC-ENAN-ENIN/ENFIR 2024)</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>SANTOS, L. J. ; CAVALCANTE, L. C. ; OLIVEIRA, V. L. T. ; FELGUEIRAS, C. F. ; MATSUDA, MARGARETH M N. <b>Effectiveness Test of Disinfectants to Eliminate Biofilm in Radiopharmacy</b>. Em: INAC-ENAN-ENIN/ENFIR 2024, 2024, Rio de Janeiro - RJ. INAC 2024, 2024. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INAC-ENAN-ENIN/ENFIR 2024, 2024, RIO DE JANEIRO - RJ. INAC 2024)</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>SGRIGNOLI, S. S. ; ANGELOCCI, L. V. ; CHICO, H. S. ; Carla D. Souza, ; BURIN, A. L. ; RODRIGUES, P. S. ; TEODORO, L. E. H. ; MEDEIROS, I. M. M. A. ; CARLOS A. ZEITUNI ; CHUERI MARTINS ROSTELATO, MARIA ELISA. <b>Estimation of Dose Deposition by 198-AuNPs in the Prostate with MCNP in Simplified Geometry</b>. Em: International Nuclear Atlantic Conference, 2024, Rio de Janeiro. Annals of INAC, 2024. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INTERNATIONAL NUCLEAR ATLANTIC CONFERENCE, 2024, RIO DE JANEIRO. ANNALS OF INAC)</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>SGRIGNOLI, S. S. ; ANGELOCCI, LUCAS VERDI ; CHICO, H. S. ; Daruich de Souza, Carla ; BURIN, A. L. ; RODRIGUES, P. S. ; TEODORO, L. E. H. ; MEDEIROS, I. M. M. A. ; ZEITUNI, C.A. ; ROSTELATO, M.. <b>Estimation of Dose Deposition by 198-AuNPs in the Prostate with MCNP in Simplified Geometry</b>. Em: International Nuclear Atlantic Conference, 2024, Rio de Janeiro. Anals of INAC, 2024. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INTERNATIONAL NUCLEAR ATLANTIC CONFERENCE, 2024, RIO DE JANEIRO. ANALS OF INAC)</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Silva, R. de A. ; MATSUDA, MARGARETH M N. <b>Evaluation of the degradation profile and stability of the MAG3 lyophilized reagent</b>. Em: INAC 2024, 2024, Rio de Janeiro - RJ. INAC ENAN-ENIN/ENFIR 2024, 2024. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INAC 2024, 2024, RIO DE JANEIRO - RJ. INAC ENAN-ENIN/ENFIR 2024)</td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>A. A. Gomes ; Nario, A. P. ; de Rossi, W.. <b>Microfluídica, uma tecnologia aplicada a purificação e concentração de 18F para produção de radiofármacos</b>. Em: 37º Congresso Brasileiro de Medicina Nuclear, 2023, Porto de Galinhas. Anais do 37º Congresso Brasileiro de Medicina Nuclear, v. 1, 2023. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (37º CONGRESSO BRASILEIRO DE MEDICINA NUCLEAR, 2023, PORTO DE GALINHAS. ANAIS DO 37º CONGRESSO BRASILEIRO DE MEDICINA NUCLEAR)</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ALMEIDA JR., J. N. ; POTIENS, M. P. A. ; RODRIGUES JR, ORLANDO. <b>Desenvolvimento de um protótipo semiautomatizado para posicionamento de filtros para calibração em sistemas de radiação X</b>. Em: XXVII Congresso Brasileiro de Física Médica 2023., 2023, São Pedro. Anais do XXVII Congresso Brasileiro de Física Médica 2023.. São Paulo: Associação Brasileira de Física Médica, v. 17, p. 141-141, 2023. <a href="http://dx.doi.org/10.29384/rbfm.2023.v17.19849001632" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (XXVII CONGRESSO BRASILEIRO DE FÍSICA MÉDICA 2023., 2023, SÃO PEDRO. ANAIS DO XXVII CONGRESSO BRASILEIRO DE FÍSICA MÉDICA 2023.. SÃO PAULO: ASSOCIAÇÃO BRASILEIRA DE FÍSICA MÉDICA)</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CUNHA, C. E. ; Carla D. Souza,. <b>Percepção e opinião de técnicos e tecnólogos em serviços de radioterapia sobre o uso de automação e inteligência artificial em processos de teleterapia</b>. Em: Workshop do Mestrado Profissional, 2023, Sao Paulo. Workshop do Mestrado Profissional, 2023. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (WORKSHOP DO MESTRADO PROFISSIONAL, 2023, SAO PAULO. WORKSHOP DO MESTRADO PROFISSIONAL)</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Daruich de Souza, Carla; BARBEZAN, A. B. ; ROSERO, W. A. A. ; CARLOS A. ZEITUNI ; VIEIRA, D. P. ; CHUERI MARTINS ROSTELATO, MARIA ELISA. <b>Nanopartículas radioativas de ouro para tratamento de câncer</b>. Em: II Simpósio de Nanotecnologia Aplicada à Medicina e ao Agronegócio, 2023, São Carlos. Anais II Simpósio de Nanotecnologia Aplicada à Medicina e ao Agronegócio, 2023. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (II SIMPÓSIO DE NANOTECNOLOGIA APLICADA À MEDICINA E AO AGRONEGÓCIO, 2023, SÃO CARLOS. ANAIS II SIMPÓSIO DE NANOTECNOLOGIA APLICADA À MEDICINA E AO AGRONEGÓCIO)</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Dias, F.S. ; Santos, L.C. ; POTIENS, M. P. A.. <b>Avaliação do desempenho de diferentes câmaras de ionização do tipo lápis em feixes de calibração</b>. Em: XXVII Congresso Brasileiro de Física Médica 2023., 2023, São Pedro. Anais do XXVII Congresso Brasileiro de Física Médica 2023.. São Paulo: Associação Brasileira de Física Médica, v. 17, p. 94-94, 2023. <a href="http://dx.doi.org/10.29384/rbfm.2023.v17" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (XXVII CONGRESSO BRASILEIRO DE FÍSICA MÉDICA 2023., 2023, SÃO PEDRO. ANAIS DO XXVII CONGRESSO BRASILEIRO DE FÍSICA MÉDICA 2023.. SÃO PAULO: ASSOCIAÇÃO BRASILEIRA DE FÍSICA MÉDICA)</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>FAROOQ, SAJID ; PERES, DANIELLA LÚMARA ; CAIXETA, DOUGLAS CARVALHO ; LIMA, CASSIO ; DA SILVA, ROBINSON SABINO ; Zezell, Denise Maria. <b>Monitoring Changes in Urine from Diabetic Rats Using ATR-FTIR and Machine Learning</b>. Em: 2023 International Conference on Optical MEMS and Nanophotonics (OMN) and SBFoton International Optics and Photonics Conference (SBFoton IOPC), 2023, Campinas. 2023 International Conference on Optical MEMS and Nanophotonics (OMN) and SBFoton International Optics and Photonics Conference (SBFoton IOPC), p. 1, 2023. <a href="http://dx.doi.org/10.1109/OMN/SBFotonIOPC58971.2023.10230957" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (2023 INTERNATIONAL CONFERENCE ON OPTICAL MEMS AND NANOPHOTONICS AND SBFOTON INTERNATIONAL OPTICS AND PHOTONICS CONFERENCE , 2023, CAMPINAS. 2023 INTERNATIONAL CONFERENCE ON OPTICAL MEMS AND NANOPHOTONICS AND SBFOTON INTERNATIONAL OPTICS AND PHOTONICS CONFERENCE)</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>FERREIRA, H. ; Carla D. Souza, ; POZZO, L. ; ROSTELATO, M.. <b>THE RADIOACTIVE SEED LOCALIZATION AND WIRE GUIDED LOCALIZATION FOR IMPALPABLE BREAST CANCER SURGERY: META-ANALYSIS</b>. Em: IV Congresso da REBRATS, 2023, Brasília. Anais do IV Congresso da REBRATS, 2023. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (IV CONGRESSO DA REBRATS, 2023, BRASÍLIA. ANAIS DO IV CONGRESSO DA REBRATS)</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Godeli Neto, J. ; Poletti, M.E. ; Cunha, D.M. ; POTIENS, M P A. <b>Computational evaluation of the bucky components influence on the estimation of normalized glandular dose in digital mammography</b>. Em: 4th International Conference on Dosimetry and its Applications, 2023, Valencia, Espanha. Book of abstracts - ICDA 4. Valencia, Spain: ISIRYM, v. 1, p. 69-69, 2023. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (4TH INTERNATIONAL CONFERENCE ON DOSIMETRY AND ITS APPLICATIONS, 2023, VALENCIA, ESPANHA. BOOK OF ABSTRACTS - ICDA 4. VALENCIA, SPAIN: ISIRYM)</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Martins, E.W. ; Potiens, M.P.A.. <b>Performance evaluation of activity meters using the in-situ calibration methodology with Tc-99m</b>. Em: 4th International Conference on Dosimetry and its Applications, 2023, Valencia, Espanha. Book of abstracts - ICDA 4. Valencia, Spain: ISIRYM, v. 1, p. 56-56, 2023. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (4TH INTERNATIONAL CONFERENCE ON DOSIMETRY AND ITS APPLICATIONS, 2023, VALENCIA, ESPANHA. BOOK OF ABSTRACTS - ICDA 4. VALENCIA, SPAIN: ISIRYM)</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Nario, A. P. ; Santos. S. N. ; de Rossi, W. ; Bernardes, E. S.. <b>Síntese, caracterização in vitro e in vivo de um novo traçador PET como potencial agente para hipóxia tumoral</b>. Em: 37º Congresso Brasileiro de Medicina NUclear, 2023, Porto de Galinhas, PE. Anais do 37º Congresso Brasileiro de Medicina NUclear, v. 1, p. 1, 2023. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (37º CONGRESSO BRASILEIRO DE MEDICINA NUCLEAR, 2023, PORTO DE GALINHAS, PE. ANAIS DO 37º CONGRESSO BRASILEIRO DE MEDICINA NUCLEAR)</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>NASCIMENTO, G. G. ; RODRIGUES JR, ORLANDO ; POTIENS, M. P. A.. <b>Desafios na introdução da física radiológica em cursos de nível técnico de radiologia</b>. Em: XXVII Congresso Brasileiro de Física Médica 2023., 2023, São Pedro. Anais do XXVII Congresso Brasileiro de Física Médica 2023.. São Paulo: Associação Brasileira de Física Médica, v. 17, p. 32-32, 2023. <a href="http://dx.doi.org/10.29384/rbfm.2023.v17.19849001730" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (XXVII CONGRESSO BRASILEIRO DE FÍSICA MÉDICA 2023., 2023, SÃO PEDRO. ANAIS DO XXVII CONGRESSO BRASILEIRO DE FÍSICA MÉDICA 2023.. SÃO PAULO: ASSOCIAÇÃO BRASILEIRA DE FÍSICA MÉDICA)</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>PINHEIRO, R. S. ; ANA, P. A. ; RIBEIRO, M. S. ; TANAKA, H.. <b>Use of PDT therapy for symptom reduction in patients who are or have had COVID-19</b>. Em: I Workshop on Biomedical Engineering UFABC, 2023, São Bernardo do Campo. Annals of the I Workshop on Biomedical Engineering UFABC. São Bernardo do Campo, v. 1, p. 94-95, 2023. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (I WORKSHOP ON BIOMEDICAL ENGINEERING UFABC, 2023, SÃO BERNARDO DO CAMPO. ANNALS OF THE I WORKSHOP ON BIOMEDICAL ENGINEERING UFABC. SÃO BERNARDO DO CAMPO)</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>ROSA, G. ; CHUERI MARTINS ROSTELATO, MARIA ELISA ; Daruich de Souza, Carla. <b>Desenvolvimento de metodologia para produção de fonte de Iodo-125</b>. Em: Workshop do Mestrado Profissional, 2023, Sao Paulo. Workshop do Mestrado Profissional, 2023. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (WORKSHOP DO MESTRADO PROFISSIONAL, 2023, SAO PAULO. WORKSHOP DO MESTRADO PROFISSIONAL)</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>SANTOS, A. R. C. ; SOUZA, CARLA DARUICH DE. <b>Avaliação e protocolo de redução de dose de radiação em tomografia computadorizada em pacientes pediátricos</b>. Em: Workshop do Mestrado Profissional, 2023, São Paulo. Workshop do Mestrado Profissional, 2023. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (WORKSHOP DO MESTRADO PROFISSIONAL, 2023, SÃO PAULO. WORKSHOP DO MESTRADO PROFISSIONAL)</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Silva, R. C. ; Morais, P. J. ; Carvalho, A. ; de Rossi, W. ; MOTTA, C. C.. <b>Thermophoretic efficiency in the MCVD process A CFD modeling</b>. Em: to 2023 International Conference on Optical MEMS and Nanophotonics (OMN) and SBFoton International Optics and Photonics Conference (SBFoton IOPC), 2023, Campinas, SP.. to 2023 International Conference on Optical MEMS and Nanophotonics (OMN) and SBFoton International Optics and Photonics Conference (SBFoton IOPC), v. 1, p. 1-2, 2023. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (TO 2023 INTERNATIONAL CONFERENCE ON OPTICAL MEMS AND NANOPHOTONICS AND SBFOTON INTERNATIONAL OPTICS AND PHOTONICS CONFERENCE , 2023, CAMPINAS, SP.. TO 2023 INTERNATIONAL CONFERENCE ON OPTICAL MEMS AND NANOPHOTONICS AND SBFOTON INTERNATIONAL OPTICS AND PHOTONICS CONFERENCE)</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>SILVA, T. S. ; SANTOS, D. O. ; SOARES, C. ; SANTOS, M. L. C. ; Carla D. Souza,. <b>Análise de Reações Adversas de Curto Prazo Durante o Tratamento da Radioterapia em Adultos com Câncer de Cabeça e Pescoço</b>. Em: Workshop do Mestrado Profissional, 2023, Sao Paulo. Workshop do Mestrado Profissional, 2023. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (WORKSHOP DO MESTRADO PROFISSIONAL, 2023, SAO PAULO. WORKSHOP DO MESTRADO PROFISSIONAL)</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Ufala, I.D. ; Santos, L.C. ; POTIENS, M. P. A.. <b>Avaliação do desempenho de uma câmara monitora em feixes de referência para radiodiagnóstico</b>. Em: XXVII Congresso Brasileiro de Física Médica 2023., 2023, São Pedro. Anais do XXVII Congresso Brasileiro de Física Médica 2023.. São Paulo: Associação Brasileira de Física Médica, v. 17, p. 132-132, 2023. <a href="http://dx.doi.org/10.29384/rbfm.2023" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (XXVII CONGRESSO BRASILEIRO DE FÍSICA MÉDICA 2023., 2023, SÃO PEDRO. ANAIS DO XXVII CONGRESSO BRASILEIRO DE FÍSICA MÉDICA 2023.. SÃO PAULO: ASSOCIAÇÃO BRASILEIRA DE FÍSICA MÉDICA)</td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Almeida Jr., J.N. ; POTIENS, MPA ; Rodrigues Jr., O.. <b>Desenvolvimento de um sistema de filtração adicional semi-automatizado para a implantação de novas qualidades de feixe de raios-X utilizados em radiodiagnóstico</b>. Em: International Joint Conference RADIO 2022, 2022, Poços de Caldas. Livros de Resumos -- International Joint Conference RADIO 2022. Rio de Janeiro: SBPR, v. 1, p. 370-371, 2022. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INTERNATIONAL JOINT CONFERENCE RADIO 2022, 2022, POÇOS DE CALDAS. LIVROS DE RESUMOS -- INTERNATIONAL JOINT CONFERENCE RADIO 2022. RIO DE JANEIRO: SBPR)</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Bueno, L.K. ; Villani, D. ; Rodrigues Jr., O. ; POTIENS, MPA. <b>Study on depth of measurement and volume variation of nuclides used in nuclear medicine for 'in situ' ionization chamber characterization and experimental Monte Carlo comparison</b>. Em: International Joint Conference RADIO 2022, 2022, Poços de Caldas. Livros de Resumos -- International Joint Conference RADIO 2022. Rio de Janeiro: Sociedade Brasileira de Proteção Radiológica, v. 1, p. 385-386, 2022. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INTERNATIONAL JOINT CONFERENCE RADIO 2022, 2022, POÇOS DE CALDAS. LIVROS DE RESUMOS -- INTERNATIONAL JOINT CONFERENCE RADIO 2022. RIO DE JANEIRO: SOCIEDADE BRASILEIRA DE PROTEÇÃO RADIOLÓGICA)</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CABRAL, FERNANDA V. ; LIAN, CHENG ; PERSHEYEV, SAYDULLA ; SAMUEL, IFOR D.W. ; Ribeiro, Martha S.. <b>Organic Light-Emitting Diodes as Wearable Light Sources for Antiparasitic Photodynamic Therapy</b>. Em: Latin America Optics and Photonics Conference, 2022, Recife. Latin America Optics and Photonics (LAOP) Conference 2022. Washington: Optica Publishing Group, p. Tu4A.39, 2022. <a href="http://dx.doi.org/10.1364/LAOP.2022.Tu4A.39" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (LATIN AMERICA OPTICS AND PHOTONICS CONFERENCE, 2022, RECIFE. LATIN AMERICA OPTICS AND PHOTONICS CONFERENCE 2022. WASHINGTON: OPTICA PUBLISHING GROUP)</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>COURI, V. S. F. ; MATSUDA, MARGARETH M N. <b>Estudo da separação cromatográfica de DEX-500/DEX-70-TEC e FITA-TEC na determinação da pureza radioquímica</b>. Em: Seminário Anual PIBIC-PROBIC-PIBITI-2022, 2022, São Paulo. Seminário Anual PIBIC-PROBIC-PIBITI-2022, 2022. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (SEMINÁRIO ANUAL PIBIC-PROBIC-PIBITI-2022, 2022, SÃO PAULO. SEMINÁRIO ANUAL PIBIC-PROBIC-PIBITI-2022)</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Dias, F.S. ; POTIENS, M. P. A.. <b>Verificação da confiabilidade de câmaras de ionização de placas paralelas para feixes de baixa energia</b>. Em: International Joint Conference RADIO 2022, 2022, Poços de Caldas. Livros de Resumos -- International Joint Conference RADIO 2022. Rio de Janeiro: Sociedade Brasileira de Proteção Radiológica, v. 1, p. 185-186, 2022. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INTERNATIONAL JOINT CONFERENCE RADIO 2022, 2022, POÇOS DE CALDAS. LIVROS DE RESUMOS -- INTERNATIONAL JOINT CONFERENCE RADIO 2022. RIO DE JANEIRO: SOCIEDADE BRASILEIRA DE PROTEÇÃO RADIOLÓGICA)</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Martins, E.W. ; POTIENS, M. P. A.. <b>Metodologia de calibração 'in situ' de ativímetros para 111IN e 123I</b>. Em: International Joint Conference RADIO 2022, 2022, Poços de Caldas. Livros de Resumos -- International Joint Conference RADIO 2022. Rio de Janeiro: Sociedade Brasileira de Proteção Radiológica, v. 1, p. 102-103, 2022. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INTERNATIONAL JOINT CONFERENCE RADIO 2022, 2022, POÇOS DE CALDAS. LIVROS DE RESUMOS -- INTERNATIONAL JOINT CONFERENCE RADIO 2022. RIO DE JANEIRO: SOCIEDADE BRASILEIRA DE PROTEÇÃO RADIOLÓGICA)</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>QUEIROZ, F. M. ; RIBEIRO, G. L. X. ; CASTRO, R. S. ; SANTOS, R. G. ; PORTO, J. F. B. ; SILVA, L. S. ; Vieira, A. ; SANTOS, L. U. ; TERADA, M. ; de Rossi, W. ; Costa, I.. <b>Study of the effect of nanosecond laser texturing on the corrosion behavior of Ti6Al4V and Ti6Al4V parts produced by powder bed fusion</b>. Em: XX Brazil MRS Meeting, 2022, Foz do Iguaçu. Proceedings of XX Brazil MRS Meeting, p. 1-1, 2022. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (XX BRAZIL MRS MEETING, 2022, FOZ DO IGUAÇU. PROCEEDINGS OF XX BRAZIL MRS MEETING)</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>RODRIGUES DA SILVA, ABDÊNEGO ; CABRAL, FERNANDA VIANA ; FONTES, ADRIANA ; Simões, Martha Ribeiro. <b>Light-based antifungal strategy for the control of Candida auris</b>. Em: Latin America Optics and Photonics Conference, 2022, Recife. Latin America Optics and Photonics (LAOP) Conference 2022. Washington: Optica Publishing Group, p. W4A.58, 2022. <a href="http://dx.doi.org/10.1364/LAOP.2022.W4A.58" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (LATIN AMERICA OPTICS AND PHOTONICS CONFERENCE, 2022, RECIFE. LATIN AMERICA OPTICS AND PHOTONICS CONFERENCE 2022. WASHINGTON: OPTICA PUBLISHING GROUP)</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SILVA, CAMILA RAMOS ; Ribeiro, Martha Simoes. <b>Bimodal Treatment for Triple-Negative Breast Cancer by Combining Optical and Gamma Radiation</b>. Em: Latin America Optics and Photonics Conference, 2022, Recife. Latin America Optics and Photonics (LAOP) Conference 2022. Washington: Optica Publishing Group, p. Tu4A.38, 2022. <a href="http://dx.doi.org/10.1364/LAOP.2022.Tu4A.38" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (LATIN AMERICA OPTICS AND PHOTONICS CONFERENCE, 2022, RECIFE. LATIN AMERICA OPTICS AND PHOTONICS CONFERENCE 2022. WASHINGTON: OPTICA PUBLISHING GROUP)</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Souza, F. C. R. ; de Rossi, W. ; Costa, E. S. ; Aires, L. C. ; Machado, A. R.. <b>EFEITO DA TEXTURIZAÇÃO EM FERRAMENTAS DE PCD NO TORNEAMENTO DE ALUMÍNIO 2011-T4,</b>. Em: XXIV Colóquio de Usinagem, 2022, Curitiba. Anais do XXIV Colóquio de Usinagem, p. 1-3, 2022. <a href="http://dx.doi.org/10.29327/usinagem.485690" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (XXIV COLÓQUIO DE USINAGEM, 2022, CURITIBA. ANAIS DO XXIV COLÓQUIO DE USINAGEM)</td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CASTRO, H. R. G. ; COURI, V. S. F. ; MARTINS, P. A. ; Santos, Joel ; MATSUDA, MARGARETH M N. <b>Evaluation of dithiol spectrophotometric method for tin determination in lyophilized reagents</b>. Em: INAC 2021, 2021. INAC 2021, 2021. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INAC 2021, 2021. INAC 2021)</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>FREITAS, G. R. ; Daruich de Souza, Carla. <b>Information management methodology in the control of radiation exposure in computed tomography exams</b>. Em: 20th International Union for Pure and Applied Biophysics (IUPAB), 50th Annual Meeting of the Brazilian Society for Biochemistry and Molecular Biology (SBBq), 45th Congress of 50th Brazilian Society of Biophysics (SBBf) and 13th Brazilian Society on Nuclea, 2021, on line. Annals of the 20th International Union for Pure and Applied Biophysics (IUPAB), 2021. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (20TH INTERNATIONAL UNION FOR PURE AND APPLIED BIOPHYSICS , 50TH ANNUAL MEETING OF THE BRAZILIAN SOCIETY FOR BIOCHEMISTRY AND MOLECULAR BIOLOGY , 45TH CONGRESS OF 50TH BRAZILIAN SOCIETY OF BIOPHYSICS AND 13TH BRAZILIAN SOCIETY ON NUCLEA, 2021, ON LINE. ANNALS OF THE 20TH INTERNATIONAL UNION FOR PURE AND APPLIED BIOPHYSICS)</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>FREITAS, G. R. ; Daruich de Souza, Carla. <b>Metodologia de gestão da informação no controle de exposição em exames de tomo-grafia computadorizada</b>. Em: 1o Workshop do Mestrado Profissional, 2021, São Paulo. Anais do 1o Workshop do Mestrado Profissional, 2021. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (1O WORKSHOP DO MESTRADO PROFISSIONAL, 2021, SÃO PAULO. ANAIS DO 1O WORKSHOP DO MESTRADO PROFISSIONAL)</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MARTINS, T. M. T. M. ; Daruich de Souza, Carla. <b>Perfil epidemiológico de caso de câncer de próstata em centro de referência no estado do Ceará entre o período de 2014 a 2019</b>. Em: 1o Workshop do Mestrado Profissional, 2021, 2021. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (1O WORKSHOP DO MESTRADO PROFISSIONAL, 2021)</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MATSUDA, MARGARETH M N; Santos, Joel. <b>Quantificação do ativo no radiofármaco de SAH-TEC por espectrofotometria de UV-visível</b>. Em: INAC 2021, 2021, Virtual. INAC 2021, 2021. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INAC 2021, 2021, VIRTUAL. INAC 2021)</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>RODRIGUES, A. S. ; Lugão, Ademar B. ; BATISTA, JORGE G. S. ; CAVALCANTE, ADRIANA K ; DE FREITAS, LUCAS F. ; CRUZ, CASSIA P. C.. <b>Desenvolvimento de nanopartículas de ouro (AuNPs) para teranóstica</b>. Em: PROGRAMA INSTITUCIONAL DE BOLSAS DE INICIAÇÃO CIENTÍFICA; SEMINÁRIO ANUAL PIBIC, 27.; SEMINÁRIO ANUAL PROBIC, 18.; SEMINÁRIO ANUAL PIBITI, 11, 2021, São Paulo. PIBIC-PROBIC-PIBITI - 2021, p. 68-69, 2021. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (PROGRAMA INSTITUCIONAL DE BOLSAS DE INICIAÇÃO CIENTÍFICA; SEMINÁRIO ANUAL PIBIC, 27.; SEMINÁRIO ANUAL PROBIC, 18.; SEMINÁRIO ANUAL PIBITI, 11, 2021, SÃO PAULO. PIBIC-PROBIC-PIBITI - 2021)</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SILVA, J. T. ; Daruich de Souza, Carla ; NOGUEIRA, B. R. ; ANGELOCCI, L. V. ; ZEITUNI, C.A. ; ROSTELATO, MARIA ELISA CHUERY MARTINS. <b>Homogeneity evaluation of phosphorus-32 epoxy plaques to be used in the treatment of spinal and intracranial cancer by brachytherapy</b>. Em: 2021 International Conference on Electronic Materials (2021 IUMRS-ICEM) XIX Brazilian Materials Research Society Meeting (XIX B-MRS), 2021, on-line. Annals of 2021 International Conference on Electronic Materials (2021 IUMRS-ICEM) and XIX Brazilian Materials Research Society Meeting (XIX B-MRS), v. 1, 2021. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (2021 INTERNATIONAL CONFERENCE ON ELECTRONIC MATERIALS XIX BRAZILIAN MATERIALS RESEARCH SOCIETY MEETING , 2021, ON-LINE. ANNALS OF 2021 INTERNATIONAL CONFERENCE ON ELECTRONIC MATERIALS AND XIX BRAZILIAN MATERIALS RESEARCH SOCIETY MEETING)</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>TRICARICO, J. M. ; Daruich de Souza, Carla. <b>Avaliação em pacientes da radioterapia oncológica em contato direto e não direto com intervenções durante o curso do tratamento Cartilha educativa para pacientes e profissionais da saúde na área de Radioterapia com foco em garantir a completude do tratamento?</b>. Em: 3 º Workshop do Programa de Pós Graduação de MESTRADO PROFISSIONAL EM TECNOLOGIA DAS RADIAÇÕES EM CIÊNCIAS DA SAÚDE, 2021, São Paulo. Annais do 3 º Workshop do Programa de Pós Graduação de MESTRADO PROFISSIONAL EM TECNOLOGIA DAS RADIAÇÕES EM CIÊNCIAS DA SAÚDE,, 2021. <font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (3 º WORKSHOP DO PROGRAMA DE PÓS GRADUAÇÃO DE MESTRADO PROFISSIONAL EM TECNOLOGIA DAS RADIAÇÕES EM CIÊNCIAS DA SAÚDE, 2021, SÃO PAULO. ANNAIS DO 3 º WORKSHOP DO PROGRAMA DE PÓS GRADUAÇÃO DE MESTRADO PROFISSIONAL EM TECNOLOGIA DAS RADIAÇÕES EM CIÊNCIAS DA SAÚDE,)</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2021 até 2024
+<br>Data de processamento: 25/03/2025 15:24:48<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:admin@email.com">admin@email.com</a>         </div> </body></html>
+              

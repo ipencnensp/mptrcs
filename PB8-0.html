@@ -1,0 +1,259 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Quadrienal Docentes Permanentes 2021-2024</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Quadrienal Docentes Permanentes 2021-2024</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Apresentações de trabalho'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2021,
+24],
+[2022,
+9],
+[2023,
+15],
+[2024,
+4]]}]});
+        });
+        </script>
+        
+                <h3>Apresentações de trabalho</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 52<br>
+                    
+                    
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>RIBEIRO, M. S. <b>Terapias não térmicas baseadas em luz: dos fundamentos às aplicações clínicas</b>. 2024. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>RIBEIRO, MS. <b>Light-based therapies serve as an ally to radiotherapy of cancer</b>. 2024. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Shorto, J. M. B. <b>Decarbonization in Brazil: The Strategic Role of Nuclear Energy</b>. 2024. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Shorto, J. M. B. <b>Nuclear Energy Role in the Brazilian Energy Transition</b>. 2024. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ARAÚJO, E. B. <b>Novo marco regulatório, BPF, tecnologias e desafios dos Radiofármacos</b>. 2023. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Caetano, A.K.D. ; MENEZES, M. O. ; Silva, L.C.D.P. ; Castro, J.P. ; Castello, L.B.R. ; Buchpiguel, C.A. ; Garcez, A.T.. <b>Implementação e Análise de Indicadores de Qualidade no Setor de Medicina Nuclear e PET/CT</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Daruich de Souza, Carla. <b>Abluo e a nanotecnologia: O futuro da saúde única</b>. 2023. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FERNANDES, J.C. ; ARAÚJO, E. B. ; JOAQUIM, A.I.. <b>INCIDÊNCIA DE EVENTOS ADVERSOS RELACIONADOS A TERAPIAS COM O RADIOFÁRMACO IODETO DE SÓDIO (131I)</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>M.P.A. <b>POTIENS. Instrumentação em radiodiagnóstico: parte 1 e parte 2</b>. 2023. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>M.P.A. <b>POTIENS. Avaliação de Radionuclídeos em Medicina Nuclear</b>. 2023. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>M.P.A. <b>POTIENS. Instrumentação em radiodiagnóstico: parte 1 e parte 2</b>. 2023. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>M.P.A. <b>POTIENS. Avaliação de Radionuclídeos em Medicina Nuclear</b>. 2023. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>RIBEIRO, M. S. <b>Terapia de fotobiomodulação: quais aspectos físicos podem impactar na resposta biológica?</b>. 2023. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>RIBEIRO, M. S. <b>Tecnologias baseadas em luz para terapia e diagnóstico</b>. 2023. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>RIBEIRO, M. S. <b>Light-based technologies in Dentistry: from basis to clinical applications</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>RIBEIRO, M. S. <b>Pesquisa translacional da terapia de fotobiomodulação</b>. 2023. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>SANTOS, J.M. ; ARAÚJO, E. B. ; DOMINGOS, M. D. ; BALIEIRO, L. M. ; FREIRE, M. R. V. B. ; SILVA, L. P.. <b>ESTUDO DE AVALIAÇÃO DE ESTABILIDADE DO PEPTÍDEO PSMA I&T COM LUTÉCIO-177 PARA TRANSPORTE E APLICÃO CLÍNICA</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>SANTOS, J.M. ; MATSUDA, M.M.N. ; ARAÚJO, E. B.. <b>VALIDAÇÃO DE MÉTODO PARA DETERMINAÇÃO DE ESTANHO TOTAL POR ICPOES EM REAGENTE LIOFILIZADO TIN-TEC</b>. 2023. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>SOUZA, C. <b>D. Abluo e o desafio de inovação na indústria</b>. 2023. Apresentação de Trabalho/Simpósio</td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>A. <b>B. Lugao. 70 anos de casamento da ciência de polímeros e as radiações ionizantes</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Castro, P. A. A. ; ZEZELL, D. M.. <b>Burn wound healing by infrared spectroscopy imaging: Pilot Study</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Daruich de Souza, Carla. <b>Mulheres na ciência</b>. 2022. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Daruich de Souza, Carla. <b>Proteção Radiológica e Dosimetria</b>. 2022. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>FAROOQ, S. ; DEL-VALLE, M. ; SANTOS, M. O. ; Santos, S. ; BERNANDES, E. S. ; ZEZELL, D. M.. <b>Breast cancer subtypes diagnostic prognostication via high performance supervised machine learning</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>POTIENS, M. P. A. <b>Metrologia das Radiações Ionizantes na produção de radiofármacos</b>. 2022. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>POTIENS, M. P. A. <b>Desafios na infraestrutura nacional em novas tecnologias da medicina-Aspectos Metrológicos</b>. 2022. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>RIBEIRO, M. S. <b>Tecnologias baseadas em luz na Saúde</b>. 2022. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>ZEZELL, D. M. <b>(Invited) Disease diagnosis using Multimodal FTIR spectroscopy</b>. 2022. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ARAÚJO, ELAINE B. <b>Requisitos e desafios para produção de radiofármacos estéreis</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Daruich de Souza, Carla; KIM, J. B. ; KIM, J. J. ; JI, W. ; SON, K. J. ; HONG, J. T.. <b>Promethium-147 betavoltaic battery model to power micro sensors</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>KIM, J. J. ; JAE-SON, K. ; KIM, J. B. ; HONG, J. T. ; KIM, J. ; GI, W. N. ; CHOI, S. M. ; Daruich de Souza, Carla. <b>External environment independent beta voltaic battery technology development status</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MENDES, V. ; AZEVEDO, L. H. ; ZEZELL, D. M.. <b>(Invited) High intensity non-ablative lasers in sleep apnea</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MENEZES, M.O. <b>de. Big Data em Radioterapia</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Potiens, M.P.A. <b>Metrologia das Radiações: Grandezas Radiológicas Aplicadas à Radiologia Intervencionista</b>. 2021. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Potiens, M.P.A. <b>Dosimetria das radiações ionizantes</b>. 2021. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Potiens, M.P.A. <b>Dosimetria das radiações ionizantes</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>POZZO, L.; OLIVEIRA, M. L. ; JALILIAN, A. ; VENTURIN, G. ; KRAMER, V.. <b>Incorporation of innovative health technologies: the path to the patient. Challenges in the development and use of new radiopharmaceuticals. International Nuclear Atlantic Conference - INAC</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>RAFAELLI, R. ; CROCE, A. E. ; LIMA, C. A. ; ZEZELL, D. M. ; CROCE, M. V.. <b>Estudio de espectrofotometria FTIR de tumores primarios malignos cutáneos</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>RIBEIRO, M. S. <b>Light-based nonthermal therapies: from basis to clinical applications</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>RIBEIRO, M. S. <b>Antimicrobial photodynamic therapy: basis, applications, and future perspectives</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>RIBEIRO, M. S. <b>Luz ultravioleta: uma ferramenta eficaz no combate ao novo coronavírus?</b>. 2021. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Ribeiro, M.S. <b>Por que comemoramos o Dia Internacional da Luz?</b>. 2021. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>VALLE, M. ; DOS SANTOS, MOISÉS OLIVEIRA ; DOS SANTOS, S. N. ; BERNARDES, E. S. ; ZEZELL, DENISE MARIA. <b>A DEEP LEARNING APPROACH FOR BREAST TISSUE MALIGNANCY DIAGNOSIS USING MICRO-FTIR HYPERSPECTRAL IMAGING</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>VIEIRA, D.P. <b>SPBN-05.02 - Three-dimensional cellular culture system for testing of biological effects of radiations in tumoral and non-tumoral models</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>ZEZELL, D. M. <b>(Invited BRICS/MCTI) Disease diagnosis by FTIR spectroscopy</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>ZEZELL, D. M. <b>Tecnologia das Radiações em Ciências da Saúde no IPEN: Um Mestrado Profissional multidisciplinar e interdisciplinar</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>ZEZELL, D. M. <b>(Invited) Multidisciplinar education and employment- A multidisciplinary and interdisciplinary Professional Master's Degree at IPEN</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>ZEZELL, D. M. <b>(convidada) Mestrado Profissional para Físicos e Fisicos-médicos</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>ZEZELL, D. M. <b>(convidada- Palestra de abertura) Impacto na sociedade de tecnologias fotônicas na saúde: o papel de cientistas na quebra de paradigmas</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>ZEZELL, D. M. <b>(convidada) Interação da Luz Laser com Tecidos Biológicos e Aplicações</b>. 2021. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>ZEZELL, D. M. <b>(colóquio convidado) Diagnóstico tumoral e caracterização de tecidos biológicos por imagem hiperespectral por micro-FTIR, via aprendizado de máquin</b>. 2021. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>ZEZELL, D. M.; CASTRO, P. A. A. ; DEL-VALLE, M. ; STANCARI, K. ; SANTOS, M. O.. <b>(Invited) Disease diagnosis by FTIR spectroscopy</b>. 2021. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2021 até 2024
+<br>Data de processamento: 25/03/2025 15:24:48<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:admin@email.com">admin@email.com</a>         </div> </body></html>
+              

@@ -1,0 +1,249 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Quadrienal Docentes Permanentes 2021-2024</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Quadrienal Docentes Permanentes 2021-2024</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Dissertação de mestrado'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2021,
+6],
+[2022,
+11],
+[2023,
+13],
+[2024,
+17]]}]});
+        });
+        </script>
+        
+                <h3>Dissertação de mestrado</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 47<br>
+                    
+                    
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alessandra Eliana Xavier de Medeiros. <b>DESENVOLVIMENTO DE UM PROTOCOLO DE TESTES EM ATIVÍMETRO UTILIZANDO SERINGAS COMO FRASCO DE REFERÊNCIA</b>. Dissertação (Mestrado profissional em Tecnologia das Radiações em Ciências da Saúde) - Instituto de Pesquisas Energéticas E Nucleares, COMISSAO NACIONAL DE ENERGIA NUCLEAR. In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2413622335075405">Maria da Penha Albuquerque Potiens</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Bruno Mendonça Soares Marçal Souza. <b>Validação do método de pureza radioquímica do radiofármaco fitato de sódio (99m Tc)</b>. Dissertação (Mestrado profissional em Radiofarmácia e Medicina Nuclear) - IPEN-CNEN/SP, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5731839027155619">Margareth Mie Nakamura Matsuda</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Eduardo Osorio. <b>Estudo da Dosimetria do cristalino nos indivíduos Ocupacionalmente expostos (IOE) na Medicina Nuclear</b>. Dissertação (Mestrado profissional em Tecnologia das Radiações em Ciências da Saúde) - Instituto de Pesquisas Energéticas E Nucleares, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2413622335075405">Maria da Penha Albuquerque Potiens</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Flávio Weber. <b>Avaliação dosimétrica por simulação de Monte-Carlo de inconsistências de fabricação nas sementes radioativas utilizadas em braquiterapia.</b>. Dissertação (Mestrado profissional em Mestrado Profissional de Tecnologia das Radiações na Saúde) - Instituto de Pesquisas Energéticas e Nucleares, Comissão Nacional de Energia Nuclear. In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8451835458608326">Carla Daruich de Souza</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3494417425464878">Gabriel Elisbão da Silva</a>. <b>Desenvolvimento de um sistema para automatização e análise dos efeitos provocados por iradiação de neutrons em FPGAs</b>. Dissertação (Mestrado em Tecnologia Nuclear) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3190017636816434">Julian Marco Barbosa Shorto</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Guilherme Rey. <b>Desenvolvimento de ferramentas para visualização para Dosimetria Personalizada</b>. Dissertação (Mestrado profissional em Tecnologia Das Radiações Em Ciências da Saúde) - COMISSAO NACIONAL DE ENERGIA NUCLEAR, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4497027431723360">Orlando Rodrigues Junior</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Joiciane Ferreira. <b>Desenvolvimento de Antimicrobiano à Base de Nanopartícula de Prata para Esterilização de Imobilizadores de Radioterapia</b>. Dissertação (Mestrado profissional em Mestrado Profissional de Tecnologia das Radiações na Saúde) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8451835458608326">Carla Daruich de Souza</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Juciene dos Santos Batista. <b>Desempenho das tecnologias de medicina nuclear no Estado de São Paulo</b>. Dissertação (Mestrado profissional em Pós-Graduação Stricto Sensu - Mestrado Profissional de Tecnologia das Radia) - Instituto de Pesquisas Energéticas e Nucleares, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4002781248359452">Lorena Pozzo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7842838212273199">Júlia Guerra Cavalero</a>. <b>Determinação da espessura de esmalte modificada quimica e mecanicamente por irradiação com laser de Nd:YAG em protocolo para prevenção de cárie.</b>. Dissertação (Mestrado profissional em Tecnologia Nuclear) - Universidade de São Paulo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3524890504250775">Denise Maria Zezell</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Lígia Santos Alves. <b>Elaboração de uma cartilha sobre radioproteção para profissionais da enfermagem em uti neonatal, no uso de aparelho de raio x movel</b>. Dissertação (Mestrado profissional em Tecnologia das Radiações em Ciências da Saúde) - Instituto de Pesquisas Energéticas E Nucleares, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2413622335075405">Maria da Penha Albuquerque Potiens</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Mateus Mariano Gonçalves. <b>Análise Neutrônica do Small Modular Reactor SPARK-NC</b>. Dissertação (Mestrado em Tecnologia Nuclear) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3190017636816434">Julian Marco Barbosa Shorto</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Mikelhy Silva Rodriguez. <b>Efeito radioprotetor da fotobiomodulação em modelo de zebrafish</b>. Dissertação (Mestrado em Tecnologia Nuclear) - Universidade de São Paulo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4996734160632011">Martha Simões Ribeiro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Márcio de Aguiar dos Santos. <b>Inteligência Artificial Explicável utilizando a arquitetura U-Net e suas variantes na segmentação automática da próstata em imagens médicas</b>. Dissertação (Mestrado em Tecnologia Nuclear) - Universidade de São Paulo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4882949829423994">Mario Olimpio de Menezes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Nathalia Luzia Aidar Alves. <b>RadIA: Desenvolvimento de um modelo de inteligência artificial para previsão de planejamento em Radioterapia</b>. Dissertação (Mestrado em Tecnologia Nuclear) - Universidade de São Paulo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4882949829423994">Mario Olimpio de Menezes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Niltza Vania Villarroel Fernández. <b>Implementação da terapia fotodinâmica com azul de metileno e peróxido de hidrogênio para a preservação de tecidos periodontais em clínica odontológica da Bolívia</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Tecnologia das Radiações nas Ciências da Saúde) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4996734160632011">Martha Simões Ribeiro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>SARA PROTÁSIO ASSIS. <b>Uma cartilha de recomendações sobre calibração nos aparelhos de Tomografia Computadorizada</b>. Dissertação (Mestrado profissional em Mestrado Profissional de Tecnologia das Radiações na Saúde) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4079771121219968">Carlos Alberto Zeituni</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Thalya de Oliveira Delgado. <b>Validação da filtração esterilizante aplicada à produção do radiofármaco GUAN-IPEN-131</b>. Dissertação (Mestrado profissional em Radiofarmácia e Medicina Nuclear) - IPEN-CNEN/SP, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5731839027155619">Margareth Mie Nakamura Matsuda</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1888351059595472">Daniella Lumara Pereira Mendes de Olivera Peres</a>. <b>Avaliação do carcinoma epidermóide da cavidade oral utilizando imagens hiperespectrais obtidas por espectroscopia FTIR</b>. Dissertação (Mestrado em Tecnologia Nuclear) - Universidade de São Paulo, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3524890504250775">Denise Maria Zezell</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Danielle Nunes de Vita Silva. <b>Estudo e análise dos procedimentos de raio-X realizados em recém-nascidos prematuros internados em Unidade de Terapia Intensiva Neonatal</b>. Dissertação (Mestrado profissional em Mestrado Profissional de Tecnologia das Radiações na Saúde) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4079771121219968">Carlos Alberto Zeituni</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Fernando Cesar Moreira. <b>Efeito da fotobiomodulação usando LED de emissão vermelha sobre o metabolismo de células ósseas em cultura</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Tecnologia das Radiações nas Ciências da Saúde) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4996734160632011">Martha Simões Ribeiro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Franciele Cardoso de Vargas. <b>Mapeamento das competências do dosimetrista clínico na radioterapia</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Tecnologia das Radiações em Ciências da Saúde) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4497027431723360">Orlando Rodrigues Junior</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Giovanna Martins Rosa. <b>Desenvolvimento de metodologia para produção de fonte de Iodo-125 para braquiterapia de câncer de pele</b>. Dissertação (Mestrado profissional em Mestrado Profissional de Tecnologia das Radiações na Saúde) - Instituto de Pesquisas Energéticas e Nucleares, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8451835458608326">Carla Daruich de Souza</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>José Cláudio de Jesus. <b>Humanização no Atendimento Radiológico com a Criação de uma Cartilha para Promover Empatia e Qualidade no Cuidado à Saúde.</b>. Dissertação (Mestrado profissional em Mestrado Profissional de Tecnologia das Radiações na Saúde) - Instituto de Pesquisas Energéticas e Nucleares, Comissão Nacional de Energia Nuclear. (Coorientador).. In&iacute;cio: 2023.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8451835458608326">Carla Daruich de Souza</a>, <a href="http://lattes.cnpq.br/2413622335075405">Maria da Penha Albuquerque Potiens</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0181022276564257">Kátia Brito de Araújo</a>. <b>ESTRATÉGIAS PARA IMPLANTAÇÃO DE BOAS PRÁTICAS DE HUMANIZAÇÃO EM RADIOTERAPIA PEDIÁTRICA NO BRASIL</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Tecnologia das Radiações em Ciências da Saúde) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4497027431723360">Orlando Rodrigues Junior</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Larisse Neumann Bonatto. <b>Elaboração de guideline para comparação entre métodos de controle de qualidade de paciente específico com a técnica de arco volumétrico modulado</b>. Dissertação (Mestrado profissional em Tecnologia das Radiações em Ciências da Saúde) - Instituto de Pesquisas Energéticas e Nucleares - IPEN-CNEN, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4882949829423994">Mario Olimpio de Menezes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Luiz Henrique Yamanaka Mellucci. <b>Método para justificativa de tamanho de amostra em verificação de projeto de produtos para a saúde</b>. Dissertação (Mestrado profissional em Mestrado Profissional de Tecnologia das Radiações na Saúde) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8451835458608326">Carla Daruich de Souza</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Marília Araujo Camêlo. <b>Teste de citotoxicidade das AuNPs BSA em células hepáticas</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Tecnologia das Radiações em Ciências da Saúde) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4947891787244417">Maria Elisa Chuery Martins Rostelato</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Natalia Moreno Lima. <b>Radioiodoterapia no Teranóstico: orientações abrangentes para pacientes</b>. Dissertação (Mestrado profissional em Mestrado Profissional de Tecnologia das Radiações na Saúde) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4079771121219968">Carlos Alberto Zeituni</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Roberta Maria Altavista Sagretti. <b>Identificação de indicadores primários de transtornos alimentares e dimórfico corporal no uso de tecnologias baseadas em luz na prática odontológica</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Tecnologia das Radiações nas Ciências da Saúde) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4996734160632011">Martha Simões Ribeiro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6530841453726127">Rõmulo Monteiro Lopes</a>. <b>O Problema Inverso para Determinação do Termo Fonte Oriundo de um Gerador de Vapor da Usina de Angra-I</b>. Dissertação (Mestrado em Tecnologia Nuclear) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3190017636816434">Julian Marco Barbosa Shorto</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alexandre Alves de Souza. <b>Protocolo otimizado de TC de Tórax para pacientes de COVID-19 com Phantom</b>. Dissertação (Mestrado profissional em Tecnologia das Radiações em Ciências da Saúde) - Instituto de Pesquisas Energéticas E Nucleares, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2413622335075405">Maria da Penha Albuquerque Potiens</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ana Fernanda Yamazaki Centrone. <b>Elaboaração de instrumento de avaliação de qualidade de serviços de radioterapia</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Tecnologia das Radiações em Ciências da Saúde) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4947891787244417">Maria Elisa Chuery Martins Rostelato</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3616671874250776">Cristhian Ferreira Talacimon</a>. <b>?Dosimetria de placas poliméricas de fósforo-32 com dosímetro Fricke gel para aplicação em braquiterapia ?</b>. Dissertação (Mestrado em Tecnologia Nuclear- Aplicações) - Instituto de Pesquisas Energéticas e Nucleares, Comissão Nacional de Energia Nuclear. In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4947891787244417">Maria Elisa Chuery Martins Rostelato</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Cristiano Rodrigues Duarte. <b>Estabelecimento de uma plataforma analítica para rastreamento, imagem e quantificação de nanopartículas de Ouro-198 por técnica de detecção de emissão gama em medicina nuclear</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Tecnologia das Radiações em Ciências da Saúde) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4947891787244417">Maria Elisa Chuery Martins Rostelato</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Denise Maria de Paula Mascagni. <b>Procedimentos e Aplicações de Teranósticos e Medicina Personalizada - Um futuro novo para Saúde Pública - Parecer Técnico Cientifico</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Tecnologia das Radiações em Ciências da Saúde) - Instituto de Pesquisas Energéticas e Nucleares. (Coorientador)., . In&iacute;cio: 2022.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/4947891787244417">Maria Elisa Chuery Martins Rostelato</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Giovana Dias da Silva. <b>Produção de hidrogéis de fontes vegetais para a elaboração de construtos celulares tridimensionais</b>. Dissertação (Mestrado em Tecnologia Nuclear) - Universidade de São Paulo, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7801475936103703">Daniel Perez Vieira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5377819378219099">Henrique Santos de Chico</a>. <b>Utilização do método de Monte Carlo para avaliar as variações da taxa de dose decorrentes da produção da semente de iodo-125</b>. Dissertação (Mestrado em Tecnologia Nuclear- Aplicações) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4947891787244417">Maria Elisa Chuery Martins Rostelato</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9103382213845326">Lara El Hajj Teodoro</a>. <b>Desenvolvimento de metodologia para produção rotineira de fonte de Fósforo-32 para braquiterapia</b>. Dissertação (Mestrado em Tecnologia Nuclear- Aplicações) - Instituto de Pesquisas Energéticas e Nucleares, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4947891787244417">Maria Elisa Chuery Martins Rostelato</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Lucas Pagnano Ribeiro. <b>CARACTERIZAÇÃO DAS QUALIDADES DE RADIAÇÃO X, ESPECTRO LARGO, PARA A IMPLANTAÇÃO DE UM PROCEDIMENTO OPERACIONAL PADRÃO (POP) PARA CALIBRAÇÃO E TESTES EM RADIOTERAPIA E RADIODIAGNÓSTICO</b>. Dissertação (Mestrado profissional em Tecnologia das Radiações em Ciências da Saúde) - Instituto de Pesquisas Energéticas E Nucleares, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2413622335075405">Maria da Penha Albuquerque Potiens</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Maria das Dores Domingos. <b>Estudo da otimização dos processos de marcação do peptídeo PSMA I&T com lutécio-177 de baixa atividade específica, para aplicação no tratamento do câncer de próstata metastático resistente a castração com base em um conceito teranóstico</b>. Dissertação (Mestrado profissional em Tecnologia Nuclear - Aplicações) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4921659299780500">Elaine Bortoleti de Araújo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7374065136416553">Tainá Lima Araújo</a>. <b>Otimização dos protocolos de compressão em Mamografia Digital</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Tecnologia das Radiações em Ciências da Saúde) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4497027431723360">Orlando Rodrigues Junior</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>APARECIDA ELIZABETH SUHETT MARIANO. <b>Haveria benefícios na Criopreservação do ovário nos pacientes oncológicos no município de Ipatinga.</b>. Dissertação (Mestrado profissional em Tecnologia Nuclear Aplicações) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2173085213526010">Patrick Jack Spencer</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Laila Lima da Silva. <b>Desenvolvimento de protocolo de validação de método analítico empregado na análise de pureza radioquímica do radiofármaco PSMA-11-68Ga e sua execução</b>. Dissertação (Mestrado profissional em Tecnologia Nuclear - Aplicações) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4921659299780500">Elaine Bortoleti de Araújo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Marcela Vieira Kessler Guedes. <b>Desenvolvimento de software para auxílio na análise das imagens geradas nos testes de controle de qualidade dos equipamentos de Ressonância Magnética e Ultrassonografia</b>. Dissertação (Mestrado profissional em Tecnologia das Radiações em Ciências da Saúde) - Instituto de Pesquisas Energéticas e Nucleares - IPEN-CNEN, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4882949829423994">Mario Olimpio de Menezes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Paula Figueiredo Rocha. <b>Utilização de sementes radioativas de iodo-125 na marcação de linfonodo axilar metastático para localização intra-operatória</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Tecnologia das Radiações em Ciências da Saúde) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4947891787244417">Maria Elisa Chuery Martins Rostelato</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Rodrigo Lovatti. Avaliação da microbiota intestinal antes e após terapia combinada neoadjuvante, com radioterapia e quimioterapia, para pacientes com adenocarcinoma de reto. <b>localmente avançado.</b>. Dissertação (Mestrado profissional em Tecnologia Nuclear Aplicações) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2173085213526010">Patrick Jack Spencer</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Sabrina Fernanda Zeballos. <b>Aplicação de curativos hidrogel em lesões de pele de recém-nascidos e lactentes internados em unidade neonatal</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Tecnologia das Radiações em Ciências da Saúde) - Instituto de Pesquisas energéticas e Nucleares, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8256644098407834">Ademar Benévolo Lugão</a>.</font></i></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2021 até 2024
+<br>Data de processamento: 25/03/2025 15:24:48<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:admin@email.com">admin@email.com</a>         </div> </body></html>
+              

@@ -1,0 +1,195 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Quadrienal Docentes Permanentes 2021-2024</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Quadrienal Docentes Permanentes 2021-2024</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Iniciação científica'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2021,
+7],
+[2022,
+1],
+[2023,
+4],
+[2024,
+8]]}]});
+        });
+        </script>
+        
+                <h3>Iniciação científica</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 20<br>
+                    
+                    
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Bruna Martins dos Santos. <b>Avaliação composicional de esmalte e dentina irradiados e posterior colocação e remoção de laminados cerâmicos</b>. (Graduando em Mestrado Profissional em Tecnologia das Radiações em Ciências da Saúde) - Instituto de Pesquisas Energéticas Nucleares, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3524890504250775">Denise Maria Zezell</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Enzo Guarnieri. <b>Protótipo de ferramenta para o auxílio de exercícios fisioterapêuticos</b>. (Graduando em Ciência da Computação) - Universidade Presbiteriana Mackenzie, . 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4882949829423994">Mario Olimpio de Menezes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Enzo Rocha Damato. <b>Sistema de Análise Postural e Marcha Utilizando Visão Computacional</b>. (Graduando em Ciência da Computação) - Universidade Presbiteriana Mackenzie, . 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4882949829423994">Mario Olimpio de Menezes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Gabriel de Souza Lopes. <b>Definição de Heurísticas que guiem a escolha de nuvem pública para realizar o treinamento final (finetuning) de modelos de deep learning para processamento de linguagem natural</b>. (Graduando em Análise e Desenvolvimento de Sistemas) - Universidade Presbiteriana Mackenzie, . 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4882949829423994">Mario Olimpio de Menezes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Maria Laura de Camargo Milanese. <b>Alterações em esmalte após radioterapia: impacto na adesão em cerâmicas e sua rmoção com laser de Er:YAG</b>. Iniciação Científica - Instituto de Pesquisas Energéticas Nucleares, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3524890504250775">Denise Maria Zezell</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Raffaele Stasi. <b>Detecção hiperespectral de anomalias em lâminas histológicas</b>. (Graduando em Física) - Universidade de São Paulo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3524890504250775">Denise Maria Zezell</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Ruan Almeida Da Silva. <b>Avaliação morfológica e óptica do esmalte dental após o descolamento de laminados cerâmicos de dissilicato de lítio com laser de Er:YAG</b>. (Graduando em Odontologia) - Universidade de São Paulo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3524890504250775">Denise Maria Zezell</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Victor Seixas Locateli. <b>Estudo e desenvolvimento de algoritmos de reconstrução de imagens de tomografia com nêutrons</b>. Iniciação Científica - Instituto de Pesquisas Energéticas e Nucleares - IPEN-CNEN, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4882949829423994">Mario Olimpio de Menezes</a>.</font></td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Kelly Cristina da Silva Pascoalino. <b>Desenvolvimento de um Método Analítico, Descritivo e Preditivo, para auxiliar no diagnóstico da Peritonite Infecciosa Felina (PIF)</b>. (Graduando em Tecnologia em Ciência de Dados) - Universidade Presbiteriana Mackenzie, . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4882949829423994">Mario Olimpio de Menezes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Luís Fernando de Almeida. <b>Testes de citotoxicidade de nanopartículas de ouro em tumores de próstata</b>. Iniciação Científica - Instituto de Pesquisas Energéticas e Nucleares, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4947891787244417">Maria Elisa Chuery Martins Rostelato</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SABRINA GARDIANO AVELINO. <b>Laser Nd:YAG e flúor tópico na prevenção da cárie dental em pH variado: Análise por FTIR e MEV</b>. (Graduando em Odontologia) - Universidade de São Paulo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3524890504250775">Denise Maria Zezell</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>YASMIN REIS FONTES-OLIVEIRA. <b>Avaliação do potencial preventivo do laser de Nd:YAG e flúor tópico em pH abaixo do crítico utilizando OCT</b>. (Graduando em Odontologia) - Universidade Nove de Julho, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3524890504250775">Denise Maria Zezell</a>.</font></td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Beatriz Hashimoto Ito. <b>Caracterização de fungos isolados no monitoramento ambiental do Centro de Radiofarmácia</b>. (Graduando em Farmácia Bioquímica) - Faculdade de Ciências Farmacêuticas da Universidade de São Paulo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5731839027155619">Margareth Mie Nakamura Matsuda</a>.</font></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Carlos Henrique Camillo da Silva. <b>Métodos de processamneto computacional para análises de imagens de espectroscopia no infravermelho (micro-FTIR) para distinção entre tumores de mama HER2 positivos e negativos radiomarcados com Tecnécio-99m</b>. (Graduando em Física(43020)) - Universidade de São Paulo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3524890504250775">Denise Maria Zezell</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Felipe Marliere Cabral Ciabattari. <b>Distribuição Geográfica E Situação De Atendimento Dos Equipamentos Pet-Ct No Brasil, Considerados Os Fatores Distância E População: Estudo E Proposta A Partir Dos Dados Do Datasus</b>. (Graduando em Ciência da Computação) - Universidade Presbiteriana Mackenzie, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4882949829423994">Mario Olimpio de Menezes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Guilherme Favato Alcantara. <b>Encapsulamento de nanopartículas de ouro (NPsAU) com membranas de células tumorais</b>. Iniciação Científica - Instituto de Pesquisas Energéticas e Nucleares, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4947891787244417">Maria Elisa Chuery Martins Rostelato</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Gustavo Nascimento Farias. <b>Eliminação das linhas espectrais de absorção de vapor de água e CO2 na região de sobreposição das bandas usando o método ATR-FTIR</b>. (Graduando em Física(43020)) - Universidade de São Paulo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3524890504250775">Denise Maria Zezell</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Maitê Santos Claudio. <b>Modelagem computacional de um acelerador linear clínico com colimador multi-lâminas para análise dosimétrica de campos pequenos na radioterapia</b>. Iniciação Científica - Instituto de Pesquisas Energéticas e Nucleares, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3190017636816434">Julian Marco Barbosa Shorto</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Thais Freitas Rabelo. <b>Analise do efeito da radiação ionizante sobre o esmalte, cimento resinoso e facetas laminadas de porcelana</b>. (Graduando em Odontologia) - Universidade de São Paulo, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3524890504250775">Denise Maria Zezell</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Vicenzo San Felipe Couri. <b>Estudo do sistema de separação cromatográfica de DEX-500/DEX-70-TEC e FITA-TEC na determinação da pureza radioquímica</b>. Iniciação Científica - Faculdade de Ciências Farmacêuticas da Universidade de São Paulo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5731839027155619">Margareth Mie Nakamura Matsuda</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2021 até 2024
+<br>Data de processamento: 25/03/2025 15:24:48<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:admin@email.com">admin@email.com</a>         </div> </body></html>
+              

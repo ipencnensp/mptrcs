@@ -1,0 +1,183 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Quadrienal Docentes Permanentes 2021-2024</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Quadrienal Docentes Permanentes 2021-2024</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Tese de doutorado'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2021,
+5],
+[2022,
+4],
+[2023,
+2],
+[2024,
+3]]}]});
+        });
+        </script>
+        
+                <h3>Tese de doutorado</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 14<br>
+                    
+                    
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7813386091835567">Amanda Caramel Juvino</a>. <b>Determinação in vitro do pH crítico de desmineralização do esmalte dental humano irradiado com laser de Nd:YAG associado ao uso de produto fluoretado</b>. Tese (Doutorado em Tecnologia Nuclear) - Universidade de São Paulo, Instituto de Pesquisas Energéticas Nucleares. 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3524890504250775">Denise Maria Zezell</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1358806369294873">Jamille da Silveira Almeida</a>. <b>Construção de um objeto simulador para aplicações em Medicina Nuclear.</b>. Tese (Doutorado em Tecnologia Nuclear: Aplicações) - Instituto de Pesquisas Energéticas E Nucleares, . 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2413622335075405">Maria da Penha Albuquerque Potiens</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8308274929767367">Mayara Santana Pinto</a>. <b>Nanobraquiterapia associada à fotobiomodulação em tumor de mama induzido em camundongos</b>. Tese (Doutorado em Tecnologia Nuclear) - Universidade de São Paulo, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4996734160632011">Martha Simões Ribeiro</a>.</font></td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7202157396256049">Caroline Santos Alves de Lima</a>. <b>Desenvolvimento de hidrogéis biodegradáveis e mucoadesivos para a liberação controlada de drogas para o tratamento de câncer de bexiga</b>. Tese (Doutorado em materiais nucleares) - Instituto de Pesquisas Energéticas e Nucleares (CNEN/IPEN), . 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8256644098407834">Ademar Benévolo Lugão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6110092214282189">Matheus del Valle</a>. <b>Evaluation of breast cancer molecular subtypes using artificial intelligence in micro-FTIR hyperspectral images.</b>. Tese (Doutorado em Tecnologia Nuclear) - Universidade de São Paulo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3524890504250775">Denise Maria Zezell</a>.</font></td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5852091081293535">Adriana Kuchinski Cavalcante</a>. <b>Toxicologia in vitro e in vivo das nanopartículas de ouro sintetizadas e estabilizadas com fitoquímicos</b>. Tese (Doutorado em Tecnologia Nuclear - Materiais) - Instituto de Pesquisas Energéticas e Nucleares (CNEN/IPEN), Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8256644098407834">Ademar Benévolo Lugão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2049593592637820">Ladyjane Pereira Fontes</a>. <b>Desenvolvimento de um objeto simulador de maxila e mandíbula infantis utilizando impressora 3D para dosimetria em tomografia computadorizada de feixe cônico</b>. Tese (Doutorado em Tecnologia Nuclear: Aplicações) - Instituto de Pesquisas Energéticas E Nucleares, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2413622335075405">Maria da Penha Albuquerque Potiens</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1553763879090568">Matheus Brum Marques Bianchi Savi</a>. <b>Análise de materiais e desenvolvimento de um simulador antropomórfico com fins didáticos em radiodiagnóstico</b>. Tese (Doutorado em Tecnologia Nuclear: Aplicações) - Instituto de Pesquisas Energéticas E Nucleares, . 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2413622335075405">Maria da Penha Albuquerque Potiens</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8097625286580187">Pedro Arthur Augusto de Castro</a>. <b>CHEMOMETRICS OF BIOLOGICAL TISSUES USING INFRARED SPECTROSCOPY</b>. Tese (Doutorado em Tecnologia Nuclear) - Universidade de São Paulo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3524890504250775">Denise Maria Zezell</a>.</font></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4598970384687198">Aline de Barros Coelho</a>. <b>Leishmaniose Visceral em municípios que compõem a Superintendência Regional de Saúde de Coronel Fabriciano: avaliação do perfil clínico epidemiológico, fatores associados ao óbito e análise espaço-temporal</b>. Tese (Doutorado em Tecnologia Nuclear) - Universidade de São Paulo, . 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4996734160632011">Martha Simões Ribeiro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Caetano Padial Sabino. <b>Antimicrobial photodynamic inactivation mediated by methylene blue: analysis of inactivation kinetics and biochemical mechanisms</b>. Tese (Doutorado em Farmácia (Análises Clínicas)) - Universidade de São Paulo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/4996734160632011">Martha Simões Ribeiro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Danae Lopes Francisco. <b>Compósitos nanoestruturados de poliamida 11 - estudo dos efeitos da incorporação de nanotubos de haloisita funcionalizados e da reciclabilidade nas propriedades dos compósitos</b>. Tese (Doutorado em Tecnologia Nuclear - Materiais) - Instituto de Pesquisas Energéticas e Nucleares (CNEN/IPEN), Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8256644098407834">Ademar Benévolo Lugão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4404678399656506">Fernanda Viana Cabral</a>. <b>Towards new therapeutic strategies for cutaneous leishmaniasis</b>. Tese (Doutorado em Tecnologia Nuclear) - Universidade de São Paulo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4996734160632011">Martha Simões Ribeiro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1976921101014257">Mariliza Casanova de Oliveira Prado</a>. <b>Thermal damage and time of excision of micro and super pulsed diode lasers: an ex-vivo comparative study.</b>. Tese (Doutorado em Tecnologia Nuclear) - Universidade de São Paulo, Instituto de Pesquisas Energéticas e Nucleares. 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3524890504250775">Denise Maria Zezell</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2021 até 2024
+<br>Data de processamento: 25/03/2025 15:24:48<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:admin@email.com">admin@email.com</a>         </div> </body></html>
+              

@@ -1,0 +1,213 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Quadrienal Docentes Permanentes 2021-2024</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Quadrienal Docentes Permanentes 2021-2024</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Tese de doutorado'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2021,
+5],
+[2022,
+7],
+[2023,
+9],
+[2024,
+8]]}]});
+        });
+        </script>
+        
+                <h3>Tese de doutorado</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 29<br>
+                    
+                    
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0038777846051765">Ana Catarina Koka de Souza Silva</a>. <b>Simulação da biodistribuição de dose de nanopartículas radioativas como fonte de nanobraquiterapia em seres humanos pelo método de Monte Carlo</b>. Tese (Doutorado em Tecnologia Nuclear - Aplicações) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4079771121219968">Carlos Alberto Zeituni</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ana Lucia da Fonseca Braganca Pinheiro. <b>O uso da inteligência artificial generativa como ferramenta auxiliar em pesquisas científicas</b>. Tese (Doutorado em Tecnologia Nuclear - Aplicações) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4079771121219968">Carlos Alberto Zeituni</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Gaspar Domingos Ufala. <b>Desenvolvimento de uma Metodologia para Avaliação de Equipamentos Médico-Assistenciais em Angola</b>. Tese (Doutorado em Tecnologia Nuclear: Aplicações) - Instituto de Pesquisas Energéticas E Nucleares, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2413622335075405">Maria da Penha Albuquerque Potiens</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Ildo Domingos Ufala. <b>Caracterização de Qualidades de Radiação X: Uma Abordagem integrada entre dosimetria, espectrometriae modelagem matemática</b>. Tese (Doutorado em Tecnologia Nuclear: Aplicações) - Instituto de Pesquisas Energéticas E Nucleares, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2413622335075405">Maria da Penha Albuquerque Potiens</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Paulo Victor dos Santos Tavares. <b>Desenvolvimento de Metodologia de Dosimetria por Imagem de Tomografia Óptica em Radioterapia de Campos Pequenos com FXG e Phantom de Cabeça-Pescoço Impresso em 3D</b>. Tese (Doutorado em Tecnologia Nuclear: Aplicações) - Instituto de Pesquisas Energéticas E Nucleares, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2413622335075405">Maria da Penha Albuquerque Potiens</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7556382266331979">Renata Ruggier de Mattos</a>. <b>Estudo de radiomarcação de ligante PSMA-específico com 99mTc e desenvolvimento farmacotécnico de reagente liofilizado para pronta marcação</b>. Tese (Doutorado em Tecnologia Nuclear - Aplicações) - Instituto de Pesquisas Energéticas e Nucleares, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4921659299780500">Elaine Bortoleti de Araújo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Valeria Mendes. <b>Novo protocolo para tratamento de ronco e apneia obstrutiva do sono com laser - um ensaio clínico controlado, randomizado e duplo-cego</b>. Tese (Doutorado em Tecnologia Nuclear) - Universidade de São Paulo, . In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3524890504250775">Denise Maria Zezell</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5450778931529858">Vinicius Pereira dos Anjos</a>. <b>Espectroscopia vibracional para investigação de resistência a antimicrobianos e qualidade de fármacos</b>. Tese (Doutorado em Tecnologia Nuclear) - Universidade de São Paulo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2024.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3524890504250775">Denise Maria Zezell</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Laura Burin. <b>?Caracterização dosimétrica de uma fonte nova de Fósforo-32 utilizando simulações de Monte Carlo e métodos experimentais para aplicação em Braquiterapia ?</b>. Tese (Doutorado em Tecnologia Nuclear - Aplicações) - Instituto de Pesquisas Energéticas e Nucleares, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4947891787244417">Maria Elisa Chuery Martins Rostelato</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0683438436947489">Bruno Luis Raposo</a>. <b>Terapia óptica associada a células-tronco derivadas de tecido adiposo para cicatrização de tendinopatia induzida em rato</b>. Tese (Doutorado em Tecnologia Nuclear) - Universidade de São Paulo, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4996734160632011">Martha Simões Ribeiro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8858051495321458">David Alexander Urbina Leal</a>. <b>Manufatura Aditiva de Dispositivo para Dosimetria em Camundongos</b>. Tese (Doutorado em Tecnologia Nulear - Aplicações) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4079771121219968">Carlos Alberto Zeituni</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Felipe Chagas Rodrigues de Souza. <b>Torneamento cilíndrico externo de metais com ferramentas de corte texturizadas em variadas geometrias de texturas e condições de corte.</b>. Tese (Doutorado em Engenharia Mecânica) - Universidade Federal de Uberlândia. (Coorientador)., . In&iacute;cio: 2023.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/7755548478382164">Wagner de Rossi</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1537010903605123">Gabriel Gomes do Nascimento</a>. <b>Desenvolvimento de um phantom antropomórfico produzido em impressão 3D para implementação da grandeza Hp(3)</b>. Tese (Doutorado em Tecnologia Nuclear: Aplicações) - Instituto de Pesquisas Energéticas E Nucleares, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2413622335075405">Maria da Penha Albuquerque Potiens</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2829112240518229">Karoline Feitoza Suzart</a>. <b>Desenvolvimento de um objeto simulador de cabeça e pescoço para dosimetria em radioterapia FLASH</b>. Tese (Doutorado em Tecnologia Nuclear: Aplicações) - Instituto de Pesquisas Energéticas E Nucleares, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2413622335075405">Maria da Penha Albuquerque Potiens</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>PAULO JORGE DUDA DE MORAIS. <b>INVESTIGAÇÃO DA PROPAGAÇÃO ATMOSFÉRICA DE FEIXES LASERS ATRAVÉS DO MÉTODO DE TELA DE FASE</b>. Tese (Doutorado em Tecnologia Nuclear Materiais) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7755548478382164">Wagner de Rossi</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3507098514550721">Renata Franciulli de Figueiredo</a>. <b>Abordagem terapêutica para líquen escleroso vulvar baseada em luz comparando dois fármacos fotoativados: uma análise de custo- efetividade</b>. Tese (Doutorado em Tecnologia Nuclear) - Universidade de São Paulo, . In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4996734160632011">Martha Simões Ribeiro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Wilmmer Alexander Arcos Rosero. <b>DESENVOLVIMENTO DE NOVAS NANOPARTÍCULAS RADIOATIVAS DE 198Au FUNCIONALIZADAS COM REVESTIMIENTOS BIOLOGICAMENTE ATIVOS PARA USO EM NANOBRAQUITERAPIA</b>. Tese (Doutorado em Tecnologia Nuclear - Aplicações) - Instituto de Pesquisas Energéticas e Nucleares, Comissão Nacional de Energia Nuclear. In&iacute;cio: 2023.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4947891787244417">Maria Elisa Chuery Martins Rostelato</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6674297943280335">Abdênego Rodrigues da Silva</a>. <b>Estratégia antifúngica baseada em luz: Uma abordagem para controle de infecção disseminada por Candida auris</b>. Tese (Doutorado em Tecnologia Nuclear) - Universidade de São Paulo, Fundação de Amparo à Pesquisa do Estado de São Paulo. In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4996734160632011">Martha Simões Ribeiro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1155228781176912">Ana Gabryele Moreira dos Santos</a>. <b>Desenvolvimento e avaliação dosimétrica de um novo aplicador 3D para braquiterapia intracavitária</b>. Tese (Doutorado em Tecnologia Nuclear - Aplicações) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4947891787244417">Maria Elisa Chuery Martins Rostelato</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0631411894342314">Daniela Maria Cerqueira Leite</a>. <b>Análise in vitro dos efeitos do laser Er:YAG na remoção de laminados cerâmicos em dentes submetidos à radiação gama</b>. Tese (Doutorado em Tecnologia Nuclear) - Universidade de São Paulo, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3524890504250775">Denise Maria Zezell</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2852106035987015">Ilca Marli Moitinho Amaral Medeiros</a>. <b>Estudo e Desenvolvimento de uma Metodologia para Análise da Contaminação de Iodo-126 na Produção do Iodo-125 Utilizado na Produção em Larga Escala de Sementes de Iodo no Tratamento de Câncer</b>. Tese (Doutorado em Tecnologia Nuclear - Aplicações) - Instituto de Pesquisas Energéticas e Nucleares, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4079771121219968">Carlos Alberto Zeituni</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0318226051086527">José Neres de Almeida Junior</a>. <b>Sistema Metrológico para Determinação da Grandeza Dosimétrica Produto Kerma Área (PKA)</b>. Tese (Doutorado em Tecnologia Nuclear: Aplicações) - Instituto de Pesquisas Energéticas E Nucleares, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2413622335075405">Maria da Penha Albuquerque Potiens</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5486591260239848">Letícia França Fiuza Bacelar</a>. <b>IMPACTO DA DOSE EFETIVA COLETIVA DA POPULAÇÃO DA REGIÃO DO VALE DO AÇO EM EXAMES DE TOMOGRAFIA COMPUTADORIZADA DURANTE A PANDEMIA COVID-19.</b>. Tese (Doutorado em Tecnologia Nuclear: Aplicações) - Instituto de Pesquisas Energéticas E Nucleares, COMISSAO NACIONAL DE ENERGIA NUCLEAR. In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2413622335075405">Maria da Penha Albuquerque Potiens</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9966425262167122">Priscila Santos Rodrigues</a>. <b>Desenvolvimento de protocolo de dosimetria Fricke gel para nanopartículas de ouro-198 utilizadas em nanobraquiterapia</b>. Tese (Doutorado em Tecnologia Nuclear - Aplicações) - Instituto de Pesquisas Energéticas e Nucleares, Comissão Nacional de Energia Nuclear. In&iacute;cio: 2022.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4947891787244417">Maria Elisa Chuery Martins Rostelato</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>André Henrique Silva. <b>Desenvolvimento de um novo radiofármaco híbrido para o diagnóstico e tratamento do câncer de próstata dirigido a PSMA</b>. Tese (Doutorado em Tecnologia Nuclear - Aplicações) - Instituto de Pesquisas Energéticas e Nucleares, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2599156909197631">Emerson Soares Bernardes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3745470130281339">Camila Trindade de Oliveira</a>. <b>Análise da Influência dos Componentes Geométricos das Lâminas de Colimadores Multilâminas na Entrega da Dose</b>. Tese (Doutorado em Tecnologia Nuclear: Aplicações) - Instituto de Pesquisas Energéticas E Nucleares, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2413622335075405">Maria da Penha Albuquerque Potiens</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8399960698307010">DINO SEIGO GSUHIKEN JUNIOR</a>. <b>Desenvolvimento de moléculas nefroprotetoras para a radioterapia alvo dirigida</b>. Tese (Doutorado em Tecnologia Nuclear - Aplicações) - Instituto de Pesquisas Energéticas e Nucleares, . In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2599156909197631">Emerson Soares Bernardes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Fábio Sabará Dias. <b>Construção e aplicação de um objeto simulador de mama em impressora 3D para dosimetria em um sistema ZEISS INTRABEAM</b>. Tese (Doutorado em Tecnologia Nuclear: Aplicações) - Instituto de Pesquisas Energéticas E Nucleares, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2413622335075405">Maria da Penha Albuquerque Potiens</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0417409191911861">Jhonatas Pedrosa Marim Pereira</a>. <b>Desenvolvimento de novos agentes protetores de xerostomia causada pela radioterapia dirigida a PSMA em câncer de próstata</b>. Tese (Doutorado em Tecnologia Nuclear - Aplicações) - Instituto de Pesquisas Energéticas e Nucleares, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2021.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2599156909197631">Emerson Soares Bernardes</a>.</font></i></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2021 até 2024
+<br>Data de processamento: 25/03/2025 15:24:48<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:admin@email.com">admin@email.com</a>         </div> </body></html>
+              

@@ -1,0 +1,235 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Quadrienal Docentes Permanentes 2021-2024</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Quadrienal Docentes Permanentes 2021-2024</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Trabalhos completos publicados em anais de congressos'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2021,
+14],
+[2022,
+13],
+[2023,
+5],
+[2024,
+8]]}]});
+        });
+        </script>
+        
+                <h3>Trabalhos completos publicados em anais de congressos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 40<br>
+                    (<b>A1</b>: 0, <b>A2</b>: 0, <b>A3</b>: 0, <b>A4</b>: 0, <b>B1</b>: 1, <b>B2</b>: 0, <b>B3</b>: 0, <b>B4</b>: 0, <b>B5</b>: 0, <b>C</b>: 0, <b>NP</b>: 0, <b>Qualis n&atilde;o identificado</b>: 39)<br><p><b>Legenda Qualis:</b><ul><li> Publica&ccedil;&atilde;o para a qual o nome exato do Qualis foi identificado: <font color="#254117"><b>Qualis &lt;estrato&gt;</b></font><li> Publica&ccedil;&atilde;o para a qual um nome similar (n&atilde;o exato) do Qualis foi identificado: <font color="#F88017"><b>Qualis &lt;estrato&gt;</b></font> (nome similar)<li> Publica&ccedil;&atilde;o para a qual nenhum nome do Qualis foi identificado: <font color="#FDD7E4"><b>Qualis n&atilde;o identificado</b></font> (nome usado na busca)</ul>
+                    
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Fernandes, F. M. ; de Rossi, W. ; da Silva, E. D. ; RIBEIRO, M. S. ; Raposo, B. ; Bock, E. G. P.. <b>Fixação e orientação de células endoteliais em liga Ti-6Al-4V após microtexturização a laser</b>. Em: <font color=#330066>Congresso Brasileiro de Engenharia e Ciência dos Materiais</font>, 2024. <a href="http://dx.doi.org/10.1007/978-981-10-1082-8_15" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (Congresso Brasileiro de Engenharia e Ciência dos Materiais)</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>GERMANO, GLEICE ; DEL VALLE, MATHEUS ; PEREIRA, DANIELLA LÚRNARA ; DE FATIMA, DANIELA ; Pereira, Thiago Martini ; Zezell, Denise Maria. <b>Rapid Identification of Breast Cancer in Different Stages Using Micro-FTIR and Supervised Machine Learning Methods</b>. Em: <font color=#330066>2024 SBFoton International Optics and Photonics Conference (SBFoton IOPC)</font>, p. 1, 2024. <a href="http://dx.doi.org/10.1109/SBFotonIOPC62248.2024.10813523" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (2024 SBFoton International Optics and Photonics Conference (SBFoton IOPC))</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>GUSMAO, K. R. A. ; RODRIGUES, M. A. V. ; YOSHIMURA, T. M. ; ROGERO, J. R. ; RIBEIRO, M. S. ; FREITAS, A. Z.. <b>Red LED radiation as a potential radioprotector using a zebrafish embryo model</b>. Em: <font color=#330066>IOPC 2024</font>, v. 1, p. 1-1, 2024. <a href="http://dx.doi.org/10.1007/978-3-319-45007-0_14" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (IOPC 2024)</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>LOPES, FABIO ; RODRIGUES, MARIA FERNANDA ; PASI, FRANCESCA ; VIGORITO, MARTINA ; NANO, ROSANNA ; Zezell, Denise Maria ; SILVA, DANIELA FÁTIMA TEIXEIRA. <b>Migration and Alignment of Fibroblasts: Comparison between the Effects of the Polarization of Laser And A Non-Laser Device</b>. Em: <font color=#330066>2024 SBFoton International Optics and Photonics Conference (SBFoton IOPC)</font>, p. 1, 2024. <a href="http://dx.doi.org/10.1109/SBFotonIOPC62248.2024.10813507" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (2024 SBFoton International Optics and Photonics Conference (SBFoton IOPC))</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>PRADO, FELIPE MAIA ; PERES, DANIELLA LÚMARA ; STASI, RAFFAELE ; DOS ANJOS, VINICIUS PEREIRA ; CAVALERO, JÚLIA GUERRA ; Zezell, Denise Maria. <b>The Role of the Student Chapter in Scientific Outreach: An Experience Report in the Field of Optics and Photonics in Brazil</b>. Em: <font color=#330066>2024 SBFoton International Optics and Photonics Conference (SBFoton IOPC)</font>, p. 1, 2024. <a href="http://dx.doi.org/10.1109/sbfotoniopc62248.2024.10813532" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (2024 SBFoton International Optics and Photonics Conference (SBFoton IOPC))</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>SAUTER, I. P. ; YOSHIMURA, T. M. ; RAPOSO, B. L. ; RIBEIRO, M. S.. <b>Combined Effects of Optical Therapy and Stem Cells For Tendon Rehabilitation</b>. Em: <font color=#330066>IOPC 2024</font>, v. 1, p. 4-4, 2024.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (IOPC 2024)</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Souza, F. C. R. ; OLIVEIRA, M. A. ; de Rossi, W. ; BOING, D. ; KURODA, M. ; Machado, A. R.. <b>PROPOSTA PARA INVESTIGAR O TORNEAMENTO DE Ti6Al4V COM FERRAMENTAS DE METAL DURO TEXTURIZADAS A LASER</b>. Em: <font color=#330066>XXVI Colóquio de Usinagem</font>, 2024. <a href="http://dx.doi.org/10.29327/xxvi-coloquio-de-usinagem-449276.921324" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (XXVI Colóquio de Usinagem)</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>VECCHI, THIAGO F. ; BORDON, CAMILA D. S. ; Wetter, Niklaus Ursus ; de Rossi, W. ; KASSAB, LUCIANA R. P.. <b>Micromachined passive waveguide fabrication with fs laser in Ag-doped GeO2?PbO glasses for photonics: straight, curved and Y shaped configurations</b>. Em: <font color=#330066>38th Symposium on Microelectronics Technology -SBMICRO 2024</font>, 2024.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (38th Symposium on Microelectronics Technology -SBMICRO 2024)</td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>DE FREITAS OLIVEIRA BAFFA, MATHEUS ; BACHMANN, Luciano ; Zezell, Denise Maria ; PEREIRA, Thiago Martini ; DESERNO, THOMAS MARTIN ; FELIPE, JOAQUIM CEZAR. <b>Advancing Thyroid Pathologies Detection with Recurrent Neural Networks and Micro-FTIR Hyperspectral Imaging</b>. Em: <font color=#330066>2023 IEEE 36th International Symposium on ComputerBased Medical Systems (CBMS)</font>, v. 1, p. 611-615, 2023. <a href="http://dx.doi.org/10.1109/CBMS58004.2023.00288" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#F88017"><b>Qualis: B1</b></font> (CBMS)</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>DE MORAIS, PAULO JORGE DUDA ; DA SILVA, RUBENS CAVALCANTE ; CARVALHO, ANDRE ; de Rossi, Wagner ; MOTTA, CLAUDIO COSTA. <b>Scintillation Effects in High Energy Laser Propagation: A Numerical Approach</b>. Em: <font color=#330066>2023 SBMO/IEEE MTTS International Microwave and Optoelectronics Conference (IMOC)</font>, p. 166, 2023. <a href="http://dx.doi.org/10.1109/IMOC57131.2023.10379692" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (2023 SBMO/IEEE MTTS International Microwave and Optoelectronics Conference (IMOC))</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>de Rossi, W.; WETTER, NIKLAUS U. ; DIPOLD, J. ; BORDON, CAMILA D. S. ; KASSAB, LUCIANA R. P.. <b>Waveguide Amplifiers Produced by Femtosecond Laser in Doped Heavy Metal Glasses</b>. Em: <font color=#330066>European Summit on Laser Optcs & Photonics Technology</font>, v. 1, p. 1, 2023.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (European Summit on Laser Optcs & Photonics Technology)</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>RODRIGUES, P. S. ; BURIN, A. L. ; TALACIMON, C. ; MEDEIROS, I. M. M. A. ; PEREIRA, J. ; TEODORO, L. E. H. ; RIGO, M. ; TAVARES, P. ; MARTINS, A. ; DE SOUZA, CARLA DARUICH ; ZEITUNI, C.A. ; YORIYAZ, H. ; RODRIGUES JR, O. ; ROSTELATO, M.. <b>Validation of Fricke xylene gel dosimetry through comparisons between MCNP and TOPAS simulations</b>. Em: <font color=#330066>4th International Conference on Dosimetry and its Applications</font>, 2023. <a href="http://dx.doi.org/10.5772/35576" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (4th International Conference on Dosimetry and its Applications)</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SOUZA, F. C. R. ; MACHADO, Á. R. ; de Rossi, W.. <b>PLANO DE TRABALHO TORNEAMENTO DE Ti6Al4V COM FERRAMENTASTEXTURIZADAS POR LASER FEMTOSSEGUNDOS</b>. Em: <font color=#330066>XXV Colóquio de Usinagem</font>, v. 1, p. 1-5, 2023.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (XXV Colóquio de Usinagem)</td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BAFFA, M. F. O. ; BACHMANN, L. ; PEREIRA, T. M. ; ZEZELL, D. M. ; SOARES, E. G. ; PADUA, J. B. ; FELIPE, J. C.. <b>Histopathological Analysis of Fine-Needle Aspiration Biopsies of Thyroid Nodules Using Explainable Convolutional Neural Networks</b>. Em: <font color=#330066>IX Congresso Latino Americano de Engenharia Biomédica</font>, v. 1, p. 1-12, 2022.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (IX Congresso Latino Americano de Engenharia Biomédica)</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Barioni, A. ; Kaur, G. ; Alcantara Nunez J. A. ; Assunção, M. ; Guimarães, V. ; Lara, A. L. ; Lépine-Szily, A. ; Lichtenthäler, R. ; Linares, R ; Mendes Junior, D.R. ; Pires, K. C. C. ; Santos, O. C. B. ; Serra, A. S. ; Shorto, J M B ; Umbelino, U. ; Zagatto, V.A.B. ; Zevallos, E. O. N. ; Zamora J. C.. <b>Two-neutron transfer as a tool to study pairing correlations in nuclei</b>. Em: <font color=#330066>XLIV Brazilian Workshop on Nuclear Physics</font>, v. 2340, p. 012040, 2022.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (XLIV Brazilian Workshop on Nuclear Physics)</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BORDON, C. D. S. ; DIPOLD, J. ; BARRETO, L. M. M. ; WETTER, NIKLAUS U. ; de Rossi, W. ; KASSAB, Luciana Reyes Pires. <b>Effect of silver nanoparticles on the production of double line waveguide written by fs laser on Nd3+ doped GeO2-PbO glasses</b>. Em: <font color=#330066>Latin America Optics and Photonics Conference</font>, 2022.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (Latin America Optics and Photonics Conference)</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>BORDON, CAMILA D. S. ; WETTER, NIKLAUS U. ; de Rossi, Wagner ; KASSAB, LUCIANA R. P.. <b>Fs laser writing in Nd3+ doped GeO2-PbO glasses for the production of a new double line waveguide architectures for photonic applications</b>. Em: <font color=#330066>Integrated Optics: Devices</font>, p. 64, 2022. <a href="http://dx.doi.org/10.1117/12.2610155" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (Integrated Optics: Devices)</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>de Rossi, W.; A. A. Gomes ; SAMAD, R. E. ; MACHADO, Á. R. ; CHELIGA, P. A. B.. <b>Ultrashort laser pulse microtexturing on cutting tools</b>. Em: <font color=#330066>Latin America Optics and Photonics Conference</font>, 2022.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (Latin America Optics and Photonics Conference)</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>FERREIRA, MARIA CLARA DE MOURA SANTOS COELHO ; LEAL, LEONARDO B. ; SAITO NOGUEIRA, MARCELO ; DE CASTRO, PEDRO A. A. ; PERALTA, FELIPE ; Zezell, Denise M. ; CHAGAS E SILVA CARVALHO, LUÍS FELIPE. <b>Biochemical characterization of saliva of smoking and non-smoking patients by using Fourier-transform infrared spectroscopy</b>. Em: <font color=#330066>Biomedical Vibrational Spectroscopy 2022: Advances in Research and Industry</font>, v. 11957, p. 49-19570E-12, 2022. <a href="http://dx.doi.org/10.1117/12.2610565" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (Biomedical Vibrational Spectroscopy 2022: Advances in Research and Industry)</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>MACHADO, N. G. ; ROSERO, W. A. ; de Rossi, W. ; RAELE, M. P.. <b>Femtosecond production of gold nanoparticles suitable for nanobrachytherapy</b>. Em: <font color=#330066>Latin America Optics and Photonics Conference</font>, 2022.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (Latin America Optics and Photonics Conference)</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>MAGALHÃES, EVELLYN S. ; KUMADA, DANIEL K. ; WETTER, NIKLAUS U. ; KASSAB, LUCIANA R. P. ; de Rossi, Wagner. <b>The influence of the different parameters used for the production of double line waveguides in Nd3+ doped TeO2-ZnO glasses by fs laserwriting</b>. Em: <font color=#330066>Integrated Optics: Devices</font>, p. 65, 2022. <a href="http://dx.doi.org/10.1117/12.2610189" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (Integrated Optics: Devices)</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Morais, P. J. ; Silva, R. C. ; de Rossi, W. ; MOTTA, C. C.. <b>Numerical solution of atmospheric laser beam propagation using artificial compressibility and pseudo-spectral methods</b>. Em: <font color=#330066>2022 SBFoton International Optics ana Photonics Conference</font>, v. 1, p. 1-4, 2022.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (2022 SBFoton International Optics ana Photonics Conference)</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SIGLER JUNIOR, E. ; Barbosa, P. A. ; de Rossi, W. ; Sanatna, T. D. ; Carneiro, M. B.. <b>ANÁLISE DO DESEMPENHO DE FERRAMENTA DE CORTE DE CERÂMICA TEXTURIZADA A LASER NO TORNEAMENTO DO FC250</b>. Em: <font color=#330066>XI Congresso Brasileiro de Engenharia Mecânica</font>, p. 1-8, 2022. <a href="http://dx.doi.org/10.26678/ABCM.CONEM2022.CON22-0197" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (XI Congresso Brasileiro de Engenharia Mecânica)</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>SIGLER JUNIOR, EDUARDO ; de Rossi, Wagner ; DIAS SANTANA, TATIANA ; ALVES BARBOSA, PATRÍCIA ; BERTOLETE CARNEIRO, MARCELO. <b>AVALIAÇÃO DE FERRAMENTA DE CORTE CERÂMICA TEXTURIZADA À LASER: PROPOSTA DE TRABALHO</b>. Em: <font color=#330066>XXIV Colóquio de Usinagem</font>, 2022. <a href="http://dx.doi.org/10.29327/usinagem.478682" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (XXIV Colóquio de Usinagem)</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Silva, R. C. ; Morais, P. J. ; Carvalho, A. ; de Rossi, W. ; MOTTA, C. C.. <b>Numerical simulation on modified chemical vapor deposition (MCVD) thermal flow field</b>. Em: <font color=#330066>2022 SBFoton International Optics ana Photonics Conference</font>, v. 1, p. 1-5, 2022.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (2022 SBFoton International Optics ana Photonics Conference)</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>TAVARES, P. V. S. ; RODRIGUES JR, O. ; LL, CAMPOS. <b>Uso da técnica de tomografia computadorizada óptica para dosimetria química com solução Fricke xilenol gel</b>. Em: <font color=#330066>Internacional Joint Conference Radio 2022</font>, v. 1, 2022.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (Internacional Joint Conference Radio 2022)</td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BACELAR, L. F.F. ; POTIENS, M. P. A. ; Vicente, R.. <b>Impact of the collective effective dose of the population of the Vale do Aço region on computed tomography scans during the COVID-19 pandemic</b>. Em: <font color=#330066>International Nuclear Atlantic Conference</font>, v. 1, p. 1-3, 2021.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (International Nuclear Atlantic Conference)</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Cardoso, E. C. L ; SCAGLIUSI, S. R. ; PARRA, Duclerc F ; Lugão, Ademar B.. <b>Introduction to foamability study of a LDPE subjected to gamma radiation</b>. Em: <font color=#330066>16º CONGRESSO BRASILEIRO DE POLÍMEROS</font>, p. 1540-1543, 2021. <a href="http://dx.doi.org/10.1007/978-3-319-48191-3_79" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (16º CONGRESSO BRASILEIRO DE POLÍMEROS)</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CASTRO, PEDRO ; ZORN, TELMA ; ZEZELL, DENISE. <b>Healing status of burn wound healing: ATR-FTIR study</b>. Em: <font color=#330066>2021 SBFoton International Optics and Photonics Conference (SBFoton IOPC)</font>, v. 1, p. 1-4, 2021. <a href="http://dx.doi.org/10.1109/sbfotoniopc50774.2021.9461956" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (2021 SBFoton International Optics and Photonics Conference (SBFoton IOPC))</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CIABATTARI, F. M. C. ; DE MENEZES, MARIO O.. <b>Distribuição geográfica e situação de atendimento dos equipamentos PET-CT NO BRASIL, Considerados os fatores distância e população: estudo e proPosta a partir dos dados do DATASUS</b>. Em: <font color=#330066>XVII - Jornada de Iniciação Científica e Mostra de Iniciação Tecnológica</font>, 2021.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (XVII - Jornada de Iniciação Científica e Mostra de Iniciação Tecnológica)</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>DEL VALLE, MATHEUS ; DOS SANTOS, MOISES OLIVEIRA ; DOS SANTOS, SOFIA NASCIMENTO ; Bernardes, Emerson Soares ; ZEZELL, DENISE MARIA. <b>Evaluation of machine learning models for the classification of breast cancer hormone receptors using micro-FTIR images</b>. Em: <font color=#330066>2021 SBFoton International Optics and Photonics Conference (SBFoton IOPC)</font>, v. 1, p. 1-3, 2021. <a href="http://dx.doi.org/10.1109/sbfotoniopc50774.2021.9461946" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (2021 SBFoton International Optics and Photonics Conference (SBFoton IOPC))</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>DEL VALLE, MATHEUS ; STANCARI, KLEBER ; DE CASTRO, PEDRO ARTHUR AUGUSTO ; DOS SANTOS, MOISES OLIVEIRA ; Zezell, Denise Maria. <b>Machine Learning methods for micro-FTIR imaging classification of human skin tumors</b>. Em: <font color=#330066>2021 SBFoton International Optics and Photonics Conference (SBFoton IOPC)</font>, v. 1, p. 1-4, 2021. <a href="http://dx.doi.org/10.1109/sbfotoniopc50774.2021.9461969" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (2021 SBFoton International Optics and Photonics Conference (SBFoton IOPC))</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Galvão, H. P. ; Shorto, J M B ; Sobrinho, G. T. ; Abe, A. Y. ; Giovedi, C.. <b>Passive Autocatalytic Recombiner Perfomance Assessment Using COCOSYS</b>. Em: <font color=#330066>INAC</font>, v. 10, p. 03A, 2021.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (INAC)</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>JUVINO, AMANDA CARAMEL ; ROMANO, MARIANA ; ALVES, NATHALIA ZANINI ; FREITAS, THAIS RABELO ; ZAMATARO, CLAUDIA BIANCHI ; Zezell, Denise Maria. <b>Evaluation of the anti-caries effect beyond the critical enamel pH of preventive treatment of fluoride associated with Nd: YAG laser irradiation</b>. Em: <font color=#330066>2021 SBFoton International Optics and Photonics Conference (SBFoton IOPC)</font>, v. 1, p. 1-4, 2021. <a href="http://dx.doi.org/10.1109/SBFotonIOPC50774.2021.9461860" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (2021 SBFoton International Optics and Photonics Conference (SBFoton IOPC))</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Magalhães, E. S. ; Wetter, Niklaus Ursus ; KASSAB, Luciana Reyes Pires ; BORDON, C. D. S. ; de Rossi, W.. <b>New double line architecture produced by fs laser irradiation in Nd3+ doped TeO2-ZnO glass for photonic applications</b>. Em: <font color=#330066>2021 SBFoton International Optics and Photonics Conference (SBFoton IOPC)</font>, v. 1, p. 1-3, 2021.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (2021 SBFoton International Optics and Photonics Conference (SBFoton IOPC))</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>RODRIGUES, FABRIZIO MANOEL ; NOGUEIRA DA SILVA, LARISSA SARTORI ; Zezell, Denise Maria ; ANA, PATRICIA APARECIDA. <b>Compositional changes promoted by Er,Cr:YSGG laser when used to inhibit dentin erosion</b>. Em: <font color=#330066>2021 SBFoton International Optics and Photonics Conference (SBFoton IOPC)</font>, v. 1, p. 1-4, 2021. <a href="http://dx.doi.org/10.1109/sbfotoniopc50774.2021.9461943" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (2021 SBFoton International Optics and Photonics Conference (SBFoton IOPC))</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Samad, R. E. ; MALDONADO, Edison Puig ; de Rossi, W. ; Vieira Júnior, Nilson Dias. <b>High Intensity ultrashort laser pulses and their applications at IPEN</b>. Em: <font color=#330066>2021 SBFoton International Optics and Photonics Conference (SBFoton IOPC)</font>, v. 1, p. 1-6, 2021.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (2021 SBFoton International Optics and Photonics Conference (SBFoton IOPC))</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Sanatna, T. D. ; de Rossi, W. ; Carneiro, M. B.. <b>Avaliação de insertos de metal duro texturizados a laser no torneamento de aço inoxidável martensítico</b>. Em: <font color=#330066>11 Congresso Brasileiro de Engenharia de Fabricação</font>, v. 1, p. 1-8, 2021.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (11 Congresso Brasileiro de Engenharia de Fabricação)</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>SANTOS, S.C. ; RODRIGUES JR, O. ; CAMPOS, L. L.. <b>Synthesis of thulium-yttria nanoparticles with EPR response</b>. Em: <font color=#330066>1ST LATIN AMERICAN CONFERENCE ON SOLID STATE DOSIMETRY AND RADIATION MEASUREMENTS</font>, v. 1, 2021.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (1ST LATIN AMERICAN CONFERENCE ON SOLID STATE DOSIMETRY AND RADIATION MEASUREMENTS)</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>TAVARES, P. V. S. ; RODRIGUES JR, O. ; CAMPOS, L. L.. <b>Application of CT optical system for dose evaluation of Fricke gel solution</b>. Em: <font color=#330066>XXXV Encontro Física Norte - Nordeste</font>, v. 1, 2021.<font color="#FDD7E4"><b>Qualis: N&atilde;o identificado</b></font> (XXXV Encontro Física Norte - Nordeste)</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2021 até 2024
+<br>Data de processamento: 25/03/2025 15:24:48<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:admin@email.com">admin@email.com</a>         </div> </body></html>
+              

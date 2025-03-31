@@ -1,0 +1,245 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Quadrienal Docentes Permanentes 2021-2024</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Quadrienal Docentes Permanentes 2021-2024</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#1F77B4", "#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({chart: {type: 'column', 
+height: 300}, 
+title: {text: 'Processos ou técnicas'}, 
+subtitle: {text: ''}, 
+xAxis: {title: {text: ''}, 
+type: 'category'}, 
+yAxis: {min: 0, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+labels: {overflow: 'justify'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}}, 
+tooltip: {enabled: true, 
+valueSuffix: '', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'}, 
+plotOptions: {bar: {dataLabels: {enabled: false}}, 
+column: {stacking: null}, 
+series: {shadow: 'true'}}, 
+legend: {enabled: false, 
+layout: 'vertical', 
+align: 'right', 
+verticalAlign: 'middle', 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+shadow: true}, 
+credits: {enabled: false}, 
+series: [{name: 'Total', 
+data: [[2021,
+5],
+[2022,
+8],
+[2023,
+10],
+[2024,
+17]]}]});
+        });
+        </script>
+        
+                <h3>Processos ou técnicas</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 45<br>
+                    
+                    
+                    <div id="dv-year-2024"><h3 class="year">2024</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ARAUJO, J. C. ; FRAY JUNIOR, O. ; Ribeiro, M.S.. <b>Desenvolvimento de parâmetros de eficácia para a terapia fotodinâmica de queilite actínica grau 1</b>. 2024.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ARAUJO, J. C. ; FRAY JUNIOR, O. ; Ribeiro, M.S.. <b>Identificação da fluorescência óptica como ferramenta potencial para diagnóstico precoce e não invasivo de queilite actínica</b>. 2024.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BELLOTI NETO, O. ; AZEVEDO, L. H. ; ZEZELL, D. M.. <b>Implementaçao de Protocolo Clínico de Laserterapia de Baixa Intensidade após Exodontia de Terceiros Molares Inferiores Inclusos e Semi-inclusos, no serviço de atendimento do SUS, na cidade de Santo Antonio de Pádua- RJ</b>. 2024.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Caetano, A.K.D. ; MENEZES, M. O.. <b>Implementação e análise de indicadores de qualidade no setor de medicina nuclear e PET/CT: experiência na Sociedade Beneficente de Senhoras Hospital Sírio-Libanês</b>. 2024.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>DIAS, T. L. ; Carlos Alberto Zeituni. <b>Utilização do ?Portal Dosimetry? no Controle de Qualidade em Radioterapia</b>. 2024.</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>MASCAGNI, D. M. P. ; RODRIGUES JR., ORLANDO. <b>Roteiro de Registro de Radiofármacos no Brasil</b>. 2024.</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>MENDES, V. ; AZEVEDO, L. H. ; CUNHA, T. C. A. ; ZEZELL, D. M.. <b>Protocolo de tratamento não-ablativo dos distúrbios respiratórios do sono com associação de dois lasers pulsados de alta intensidade: Nd:YAG e Er:YAG</b>. 2024.</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>MENDES, V. ; CAMPOS, L. ; Zezell, D. M.. <b>LASERTERAPIA NA APNEIA DO SONO - Dra. Valéria Mendes | LASERCAST</b>. 2024.Programa de rádio ou TV/Entrevista</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MENDES, V. ; CARVALHO, F. R. ; Freitas, P. M. ; ZEZELL, D. M.. <b>O que diz a literatura sobre o uso de lasers para o tratamento os distúrbios respiratórios do sono. 2024; Tema: Uso de lasers para o tratamento de apnéia do</b>. 2024.Fórum</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>PICIOLI, M. R. ; Carlos Alberto Zeituni. <b>Dosimetric impact on fiducial array distortion for tracking in robotic radiosurgery: a phantom study</b>. 2024.</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Policarpo, E.M. ; Rodrigues Jr, O. ; MENEZES, M.O.. <b>Desenvolvimento De Uma Metodologia Para A Radiômica Em Mamografia Digital</b>. 2024.</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>ROSA, L. A. L. ; MONTALLI, V. A. M. ; GARCEZ, Aguinaldo Silva ; GONCALVES, A. R. ; Ribeiro, M.S.. <b>Desenvolvimento de um protocolo para inserção da terapia fotodinâmica antimicrobiana como coadjuvante ao procedimento operacional padrão de higienização bucal em pacientes intubados e internados em UTI</b>. 2024.</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>SANTOS, D. O. ; Carlos Alberto Zeituni. <b>Estudo dosimétrico e caracterização de um bólus para uso em radioterapia</b>. 2024.</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>SATO, M. T. T. C. ; Ribeiro, M.S.. <b>Identificação do potencial uso da luz UVC na desinfecção de guias cirúrgicos em acrílico impressos em 3D</b>. 2024.</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Ufala, I.D. ; Potiens, M.P.A.. <b>Proposta de Boas Práticas em Radiologia: Qualidade e Proteção Radiológica</b>. 2024.</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>WINDLIN, M. C. ; Zezell, D. M.. <b>Protocolo para remoção de laminados cerâmico com laser de Er:YAG</b>. 2024.</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>ZEZELL, D. M.; CARAMEL-JUVINO, A. ; MORAES, P. N. L.. <b>Determinação do pH crítico de desmineralização do esmalte dental humano com laser de Nd:YAG associado ao uso do produto fluoretado</b>. 2024.</td></tr>
+            </table></div><div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CALDEIRA, C. R. ; MENEZES, M. O. ; RODRIGUES JR, O. <b>Manual para análise de Angiografia Pulmonar por Tomografia Computadorizada</b>. 2023.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>de Rossi, W.; RAELE, M. P. ; MACHADO, N. G.. <b>Processo de produção de nanopartículas radioativas de ouro para aplicação em nanobraquiterapia</b>. 2023.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>DIMMER, J. A. ; Ribeiro, M.S.. <b>Identificação de fitoterápicos fotoativos para tratamento de leishmaniose cutânea</b>. 2023.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>OKAWABATA, F. S. ; RODRIGUES JR., ORLANDO. <b>Procedimento Operacional Padrão - Radioembolização com Microesferas de Resina Contendo 90Y</b>. 2023.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>PICIOLI, M. R. ; Carlos Alberto Zeituni. <b>Impacto dosimétrico no posicionamento de fiduciais para tracking em radiocirurgia robótica</b>. 2023.</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>RIBEIRO, M. S.; FIGUEIREDO, R. F.. <b>Identificação de um protocolo para remoção de hipercromia de sobrancelha tatuada associando diferentes lasers</b>. 2023.</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Ribeiro, M.S.; CABRAL, F. V. ; SEABRA, A. B.. <b>Desenvolvimento de hidrogel contendo nanopartículas de cobre e doador de óxido nítrico para tratamento de melanoma</b>. 2023.</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Ribeiro, M.S.; CABRAL, F. V. ; SMITH, T. K.. <b>Caracterização de lipídios celulares em parasitas resistentes à miltefosina após tratamento fotodinâmico</b>. 2023.</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Ribeiro, M.S.; SILVA, ABDÊNEGO R.. <b>Determinação do efeito fotodinâmico de fenotiazinas e luz vermelha em fungo resistente a fármacos convencionais</b>. 2023.</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SANTOS, J. A. ; Carlos Alberto Zeituni. <b>Mensuração da radiação secundária na tireoide e primária em cristalino em exames de tomografia computadorizada de crânio</b>. 2023.</td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALMEIDA JR., J. N. ; RODRIGUES JR, ORLANDO. <b>Desenvolvimento de um sistema semi-automatizado para filtração de sistemas de raios-X</b>. 2022.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CABRAL, F. V. ; SELLERA, F. P. ; RIBEIRO, MS. <b>Estabelecimento de um protocolo para tratamento fotodinâmico de esporotricose felina associado a baixas doses de antifúngico convencional</b>. 2022.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>DURAES, A. R. C. ; SABINO, C. P. ; RIBEIRO, MS. <b>Identificação do potencial uso da luz UVC germicida para desinfecção de unidades móveis de saúde após limpeza terminal padrão</b>. 2022.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FERREIRA, D. R. ; NASCIMENTO, M. M. ; BAGATIN, E. ; RIBEIRO, MS. <b>Estabelecimento do uso de tecnologia baseada em luz associada à solução capilar para o tratamento de alopecia padrão feminino</b>. 2022.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>JUNGES, S. ; Carlos Alberto Zeituni. <b>Elaboração de um sistema de proteção física para fontes radioativas utilizadas nas práticas clíni-cas de radioterapia</b>. 2022.</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>LINS, V. R. S. ; Carlos Alberto Zeituni. <b>Influência dos insumos hospitalares sobre o feixe de tratamento radioterápico de próstata</b>. 2022.</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>PEREIRA, C. C. B. B. ; Carlos Alberto Zeituni. <b>Influência de Lençóis e Cobertores sob Feixe Clínico de Radiação de Fótons e Elétrons</b>. 2022.</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>PEREIRA, F. C. ; SILVA, V. M. ; RIBEIRO, MS. <b>Associação de curativo à base de colágeno e fármaco fotoativo para terapia fotodinâmica pós-cirúrgica</b>. 2022.</td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Bueno, L.K. ; Potiens, M.P.A.. <b>Caracterização de fontes de referência para calibração de ativímetros com validação por Monte Carlo</b>. 2021.</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CABRAL, F. V. ; PERSHEYEV, SAYDULLA ; LIAN, CHENG ; Ribeiro, M.S. ; SAMUEL, I.. <b>Identificação do potencial uso de sistemas vestíveis baseados em LEDs orgânicos para tratamento ambulatorial de leishmanose cutânea</b>. 2021.</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>REBOUCAS, JÚLIO S ; SANTOS, BEATE S ; SOUZA, TIAGO H.S. ; FONTES, A. ; RIBEIRO, MS. <b>Identificação do potencial fotodinâmico para inativação de patógenos por fármaco lipofílico solúvel em água</b>. 2021.</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SANTOS, C.S.F. ; OLIVEIRA, H. B. ; ARAÚJO, ELAINE B.. <b>Processo de produção do radiofármaco PSMA-1007-18F em módulo de síntese automatizado</b>. 2021.</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SELLERA, F. P. ; POGLIANI, F. C. ; RIBEIRO, MS. <b>Identificação do potencial uso da terapia fotodinâmica em dermatite digital bovina</b>. 2021.</td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ANDRADE, A. B. N. ; Ademar Benevolo Lugao. <b>Sistema de liberação controlada de princípios ativos do óleo de Azadirachta indica A. Juss em matriz de poli(álcool vinílico)</b>. 0.PVA</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MARIANO, A. ; RODRIGUES JR, O. <b>Procedimento Operacional Padrão - Irradiação de toda pele com elétrons</b>. 0.ITPE</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MORAES, P. N. L. ; MORAES, M. C. D. ; ZEZELL, D. M.. <b>Protocolo terapêutico de associação da aPDT (terapia fotodinâmica antimicrobiana) e l-PRF</b>. 0.plasma rico em fibrina e leucócitos</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>PEIXOTO, A. R. ; Ribeiro, M.S.. <b>Desenvolvimento e implementação de um protocolo para prevenção de mucosite oral em pacientes portadores de tumor de cabeça e pescoço com laser de baixa potência no serviço de radiologia do Hospital de Araguaína</b>. 0.TO</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>RIBEIRO, M. S.; Lindoso,J.A.L. ; AURELIANO, D.. <b>Identificação dos mecanismos de morte celular de promastigotas de Leishmania</b>. 0.L.</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2021 até 2024
+<br>Data de processamento: 25/03/2025 15:24:48<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V9</a>.         Os resultados podem ser afetados por possíveis falhas decorrentes de inconsistências no preenchimento dos Currículos Lattes. E-mail de contato: <a href="mailto:admin@email.com">admin@email.com</a>         </div> </body></html>
+              
