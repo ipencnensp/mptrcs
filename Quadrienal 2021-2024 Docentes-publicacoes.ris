@@ -46,7 +46,7 @@ JO  - APPLIED RADIATION AND ISOTOPES
 VL  - 111302
 IS  - 
 SP  - 111302
-EP  - 
+EP  - 1
 PY  - 2024
 L2  - http://dx.doi.org/10.1016/j.apradiso.2024.111302
 L3  - 0969-8043
@@ -371,7 +371,7 @@ JO  - Scientific Reports
 VL  - 14
 IS  - 
 SP  - 9868
-EP  - 
+EP  - 10
 PY  - 2024
 L2  - http://dx.doi.org/10.1038/s41598-024-60651-0
 L3  - 2045-2322
@@ -735,7 +735,7 @@ JO  - RADIATION PHYSICS AND CHEMISTRY
 VL  - 211
 IS  - 
 SP  - 111043
-EP  - 
+EP  - 14
 PY  - 2023
 L2  - http://dx.doi.org/10.1016/j.radphyschem.2023.111043
 L3  - 0969-806X
@@ -752,6 +752,19 @@ EP  - 10
 PY  - 2023
 L2  - http://dx.doi.org/10.15392/2319-0612.2023.2207
 L3  - 2319-0612
+ER  - 
+
+TY  - JOUR
+AU  - BURIN, A.L. ; BRANCO, I.S.L. ; YORIYAZ, H.
+TI  - Determination of WER and WET equivalence estimators for proton beams in the therapeutic energy range using MCNP6.1 and TOPAS codes
+JO  - RADIATION PHYSICS AND CHEMISTRY
+VL  - 203
+IS  - 
+SP  - 110606
+EP  - 
+PY  - 2023
+L2  - http://dx.doi.org/10.1016/j.radphyschem.2022.110606
+L3  - 0969-806X
 ER  - 
 
 TY  - JOUR
@@ -843,6 +856,19 @@ EP  - 94
 PY  - 2023
 L2  - http://dx.doi.org/10.2174/2666145415666220602152634
 L3  - 2666-1454
+ER  - 
+
+TY  - JOUR
+AU  - CARVALHINHO BÜLL, HENRIQUE ; RIBEIRO NETO, MARIO ; BRAVIN MAISTRO, CARLOS EDUARDO ; Yoriyaz, Hélio ; CASTILHANO SAMPAIO, CAROLINE
+TI  - Avaliação dosimétrica de erros de posicionamento para implementação da técnica de neuroeixo com arcoterapia volumétrica modulada (VMAT)
+JO  - REVISTA BRASILEIRA DE FÍSICA MÉDICA (ONLINE)
+VL  - 17
+IS  - 
+SP  - 649
+EP  - 656
+PY  - 2023
+L2  - http://dx.doi.org/10.29384/rbfm.2023.v17.19849001649
+L3  - 1984-9001
 ER  - 
 
 TY  - JOUR
@@ -1223,6 +1249,19 @@ L3  - 0236-5731
 ER  - 
 
 TY  - JOUR
+AU  - ANTUNES, PAULA CRISTINA GUIMARÃES ; SIQUEIRA, PAULO DE TARSO DALLEDONE ; SHORTO, JULIAN BARBOSA MARCO ; Yoriyaz, Hélio
+TI  - A versatile physical phantom design and construction for I-125 dose measurements and dose-to-medium determination
+JO  - Brachytherapy
+VL  - 22
+IS  - 
+SP  - 325
+EP  - 327
+PY  - 2022
+L2  - http://dx.doi.org/10.1016/j.brachy.2022.10.005
+L3  - 1538-4721
+ER  - 
+
+TY  - JOUR
 AU  - BALOGH, TATIANA SANTANA ; BONTURIM, EVERTON ; VIEIRA, LUCAS DIAS ; Lugão, Ademar Benévolo ; KADLUBOWSKI, SLAWOMIR
 TI  - Synthesis of poly(N-vinyl pyrrolidone) (PVP) nanogels by gamma irradiation using different saturation atmospheres
 JO  - RADIATION PHYSICS AND CHEMISTRY
@@ -1600,6 +1639,19 @@ L3  - 2666-7312
 ER  - 
 
 TY  - JOUR
+AU  - LEE, SEUNG MIN ; CABRAL, EDUARDO LOBO LUSTOSA ; YORIYAZ, HELIO
+TI  - Radiation shielding for a nuclear fusion device with inertial electrostatic confinement
+JO  - BRAZILIAN JOURNAL OF RADIATION SCIENCES
+VL  - 10
+IS  - 
+SP  - 1
+EP  - 13
+PY  - 2022
+L2  - http://dx.doi.org/10.15392/2319-0612.2022.1997
+L3  - 2319-0612
+ER  - 
+
+TY  - JOUR
 AU  - LEITE, GABRIELA RODRIGUES ; BATISTA, DENISE DA GAMA JAÉN ; MAZZETI, ANA LIA ; SILVA, ROSEMEIRE APARECIDA ; Lugão, Ademar Benévolo ; SOEIRO, MARIA DE NAZARÉ CORREIA
 TI  - The Impact of the CTHRSSVVC Peptide Upon Experimental Models of Trypanosoma cruzi Infection
 JO  - Frontiers in Cellular and Infection Microbiology
@@ -1623,6 +1675,19 @@ EP  - 107
 PY  - 2022
 L2  - http://dx.doi.org/10.17265/2161-6221/2022.7-9.003
 L3  - 2161-6221
+ER  - 
+
+TY  - JOUR
+AU  - MAZER, A. C. ; YORIYAZ, H
+TI  - Image Registration Assessment Performed with and without Landmarks Extracted using SIFT Technique
+JO  - REVISTA BRASILEIRA DE FÍSICA MÉDICA (ONLINE)
+VL  - 16
+IS  - 
+SP  - 676
+EP  - 684
+PY  - 2022
+L2  - http://dx.doi.org/10.29384/rbfm.2022
+L3  - 1984-9001
 ER  - 
 
 TY  - JOUR
@@ -2315,6 +2380,19 @@ L3  - 0924-0136
 ER  - 
 
 TY  - JOUR
+AU  - MENDES, BRUNO MELO ; GUIMARÃES ANTUNES, PAULA CRISTINA ; SOARES LOPES BRANCO, ISABELA ; NASCIMENTO, EDUARDO DO ; SENIWAL, BALJEET ; FERREIRA FONSECA, TELMA CRISTINA ; YORIYAZ, HELIO
+TI  - Calculation of dose point kernel values for monoenergetic electrons and beta emitting radionuclides: Intercomparison of Monte Carlo codes
+JO  - RADIATION PHYSICS AND CHEMISTRY
+VL  - 181
+IS  - 
+SP  - 109327
+EP  - 
+PY  - 2021
+L2  - http://dx.doi.org/10.1016/j.radphyschem.2020.109327
+L3  - 0969-806X
+ER  - 
+
+TY  - JOUR
 AU  - MIRANDA, ANA CLÁUDIA CAMARGO ; DOS SANTOS, SOFIA NASCIMENTO ; FUSCALDI, LEONARDO LIMA ; BALIEIRO, LUIZA MASCARENHAS ; BELLINI, MARIA HELENA ; GUIMARÃES, MARIA INÊS CALIL CURY ; DE ARAÚJO, ELAINE BORTOLETI
 TI  - Radioimmunotheranostic Pair Based on the Anti-HER2 Monoclonal Antibody: Influence of Chelating Agents and Radionuclides on Biological Properties
 JO  - PHARMACEUTICS
@@ -2351,6 +2429,19 @@ EP  -
 PY  - 2021
 L2  - http://dx.doi.org/10.1016/j.bioorg.2021.104982
 L3  - 0045-2068
+ER  - 
+
+TY  - JOUR
+AU  - OLIVEIRA, J. M. ; VERNUCIO, S. L. ; FREDIANI, L. ; ANTUNES, P. C. G. ; YORIYAZ, H
+TI  - O Método de Análise de Modos de Falha e de seus Efeitos (FMEA) como Ferramenta de Decisão para os Testes de Comissionamento de Novos Sistemas
+JO  - REVISTA BRASILEIRA DE FÍSICA MÉDICA (ONLINE)
+VL  - 15
+IS  - 
+SP  - 1
+EP  - 7
+PY  - 2021
+L2  - http://dx.doi.org/10.29384/rbfm.2021
+L3  - 1984-9001
 ER  - 
 
 TY  - JOUR
